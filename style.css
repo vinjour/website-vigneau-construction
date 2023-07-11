@@ -27,14 +27,14 @@
 
 /* accueil.html */
 
-#myCarousel .carousel {
+#myCarousel .carousel-inner {
   text-align: center;
-  margin: auto;
+  width: 100%;
 }
 
-#myCarousel .carousel-inner img {
-  width: 90%;
-  height: 800px;
+#myCarousel .carousel-inner .img-fluid {
+  width: 100%;
+  height: 900px;
   text-align: center;
   margin: auto;
 }
