@@ -1,0 +1,906 @@
+
+/* header */
+
+.navbar-nav li ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+.navbar-nav li:hover ul {
+  display: block;
+}
+
+.navbar-nav li a {
+  color: #ffffff00;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar-nav ul li a {
+  color: #ffffff00;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* accueil.html */
+
+#myCarousel .carousel {
+  text-align: center;
+  margin: auto;
+}
+
+#myCarousel .carousel-inner img {
+  width: 90%;
+  height: 800px;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+/* agence.html */
+
+#photo_aproposdenous img {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  margin: auto;
+}
+
+#photo_aproposdenous .carousel-caption h1 {
+  font-size: 7.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -425px;
+}
+
+
+#histoire h2 {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 7ch;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  margin-left: 8rem;
+}
+
+#histoire .container {
+  max-width: 2000px;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#histoire .row {
+  text-align: justify;
+}
+
+#identite h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+  border-left: 10 rem;
+}
+
+#identite h3 {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  font-size: 3ch;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#identite .container {
+  max-width: 2000px;
+  text-align: center;
+  margin-bottom: 3rem;
+  
+}
+
+#identite .d-row {
+  justify-content: space-evenly;
+  font-size: 1.5ch;
+  color: #666;
+}
+
+#identite .col-md-3 {
+  width: 500px;
+}
+
+#identite p {
+  text-align: justify;
+  font-family: Raleway;
+}
+
+#exemple-projets h2 {
+  text-align: center;
+  justify-content: center;
+  font-size: 7ch;
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+#exemple-projets h3 {
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: black;
+  font-size: 3ch;
+  margin-top: 1rem;
+}
+
+#exemple-projets h4 {
+  text-align: center;
+  justify-content: center;
+  font-family: Raleway;
+  font-size: 1.5ch;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+#exemple-projets .container {
+  max-width: 2000px;
+  text-align: center;
+  justify-content: center;
+}
+
+#exemple-projets .d-row {
+  text-align: center;
+  justify-content: center;
+  font-size: 1ch;
+  color: #666;
+}
+
+#exemple-projets .col-md-3 {
+  width: 30%;
+  text-align: center;
+  justify-content: center;
+}
+
+#exemple-projets p {
+  font-family: Raleway;
+}
+
+#culture-entreprise h2 {
+  text-align: center;
+  font-size: 7ch;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  border-left: 10 rem;
+  font-weight: bold;
+}
+
+#culture-entreprise h3 {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  font-size: 3ch;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#culture-entreprise .container {
+  max-width: 2000px;
+  margin-bottom: 8rem;
+}
+
+#culture-entreprise .d-row {
+  justify-content: space-evenly;
+  font-size: 1.5ch;
+  color: #666;
+}
+
+#culture-entreprise .col-md-3 {
+  width: 30%;
+}
+
+#culture-entreprise p {
+  text-align: justify;
+  font-family: Raleway;
+}
+
+
+
+/* missions.html */
+
+#photo_missions img {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+#photo_missions .carousel-caption h1 {
+  font-size: 7.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -350px;
+}
+
+
+#nos-services h2 {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 7ch;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+  margin-left: 11rem;
+}
+
+#nos-services .container {
+  max-width: 2000px;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+#nos-services .row {
+  text-align: justify;
+}
+
+#description-services h1 {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  font-size: 5ch;
+  margin-bottom: 1rem;
+}
+
+#description-services .container {
+  max-width: 2000px;
+  text-align: center;
+}
+
+#description-services .d-row {
+  justify-content: space-evenly;
+  font-size: 1.5ch;
+  color: #666;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+#description-services .col-md-6 {
+  justify-content: space-evenly;
+  width: 500px;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+#description-services p {
+  margin-top: 1rem;
+  font-size: 2.5ch;
+  text-align: justify;
+  font-family: Raleway;
+}
+
+#solutions-conception h2 {
+  text-align: center;
+  justify-content: center;
+  font-size: 12ch;
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+  font-weight: bold;
+}
+
+#solutions-conception .main-timeline {
+  position: relative;
+}
+
+#solutions-conception .main-timeline:before {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 100%;
+  background: black;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#solutions-conception .main-timeline .timeline {
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+#solutions-conception .main-timeline .timeline:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#solutions-conception .main-timeline .icon {
+  width: 8px;
+  height: 8px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#solutions-conception .main-timeline .icon:before,
+#solutions-conception .main-timeline .icon:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#solutions-conception .main-timeline .icon:after {
+  border: solid black;
+}
+
+
+#solutions-conception .main-timeline .date-content {
+  width: 50%;
+  float: left;
+  margin-top: 22px;
+  position: relative;
+}
+
+#solutions-conception .main-timeline .date-content:before {
+  content: "";
+  width: 7%;
+  height: 2px;
+  background: black;
+  margin: auto 0;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+}
+
+#solutions-conception .main-timeline .timeline-content {
+  width: 50%;
+  padding: 20px 0 20px 50px;
+  float: right
+}
+
+#solutions-conception .main-timeline .title {
+  font-size: 3.5ch;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+
+#solutions-conception .main-timeline .description {
+  margin-right: 3rem;
+  margin-left: 3rem;
+  font-family: Raleway;
+  color: #666;
+}
+
+#solutions-conception .main-timeline .timeline:nth-child(2n) .date-content {
+  float: right;
+}
+
+#solutions-conception .main-timeline .timeline:nth-child(2n) .date-content:before {
+  left: 10px;
+}
+
+#solutions-conception .main-timeline .timeline:nth-child(2n) .timeline-content {
+  padding: 20px 50px 20px 0;
+  text-align: right;
+}
+
+#service-expert h2 {
+  text-align: center;
+  justify-content: center;
+  font-size: 12ch;
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+  font-weight: bold;
+}
+
+#service-expert .main-timeline {
+  position: relative;
+}
+
+#service-expert .main-timeline:before {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 100%;
+  background: black;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#service-expert .main-timeline .timeline {
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+#service-expert .main-timeline .timeline:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#service-expert .main-timeline .icon {
+  width: 8px;
+  height: 8px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#service-expert .main-timeline .icon:before,
+#service-expert .main-timeline .icon:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#service-expert .main-timeline .icon:after {
+  border: solid black;
+}
+
+
+#service-expert .main-timeline .date-content {
+  width: 50%;
+  float: left;
+  margin-top: 22px;
+  position: relative;
+}
+
+#service-expert .main-timeline .date-content:before {
+  content: "";
+  width: 7%;
+  height: 2px;
+  background: black;
+  margin: auto 0;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+}
+
+#service-expert .main-timeline .timeline-content {
+  width: 50%;
+  padding: 20px 0 20px 50px;
+  float: right
+}
+
+#service-expert .main-timeline .title {
+  font-size: 3.5ch;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+
+#service-expert .main-timeline .description {
+  margin-right: 3rem;
+  margin-left: 3rem;
+  font-family: Raleway;
+  color: #666;
+}
+
+#service-expert .main-timeline .timeline:nth-child(2n) .date-content {
+  float: right;
+}
+
+#service-expert .main-timeline .timeline:nth-child(2n) .date-content:before {
+  left: 10px;
+}
+
+#service-expert .main-timeline .timeline:nth-child(2n) .timeline-content {
+  padding: 20px 50px 20px 0;
+  text-align: right;
+}
+
+
+
+/* realisation.html */
+
+#exemple-realisation h3 {
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: black;
+  font-size: 4ch;
+  margin-top: 1rem;
+}
+
+#exemple-realisation .container {
+  max-width: 2000px;
+  text-align: center;
+  justify-content: center;
+}
+
+#exemple-realisation .d-row {
+  text-align: center;
+  justify-content: center;
+  font-size: 1ch;
+  color: #666;
+}
+
+#exemple-realisation .col-md-3 {
+  width: 30%;
+  text-align: center;
+  justify-content: center;
+}
+
+#exemple-realisation p {
+  font-family: Raleway;
+  font-size: 2.5ch;
+}
+
+#exemple-realisation img {
+  margin-top: 5rem;
+}
+
+#exemple-realisation .page-item {
+  text-align: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+#exemple-realisation .page-link {
+  color: black;
+  justify-content: center;
+  font-family: Raleway;
+}
+
+
+
+/* blog.html */
+
+#photo_ecriveznous img {
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  margin: auto;
+}
+
+#photo_ecriveznous .carousel-caption h1 {
+  font-size: 7em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -500px;
+}
+
+
+#futur-projet h1 {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  font-size: 9ch;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#futur-projet h2 {
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  font-family: Raleway;
+  font-size: 4ch;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+}
+
+#futur-projet h3 {
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  font-family: Raleway;
+  font-size: 6ch;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+
+#futur-projet .container {
+  max-width: 2000px;
+  text-align: center;
+}
+
+#futur-projet .d-row {
+  justify-content: space-evenly;
+  font-size: 1.5ch;
+  color: #666;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+#futur-projet .col-md-6 {
+  width: 500px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#futur-projet p {
+  margin-top: 3rem;
+  font-size: 3ch;
+  text-align: justify;
+  font-family: Raleway;
+}
+
+#futur-projet .fa-brands {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#futur-projet #contact {
+  margin-top: 5rem;
+}
+
+#futur-projet #contact .btn {
+  margin-top: 4rem;
+}
+
+
+
+/* footer */
+
+#contactez-nous img {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 8rem;
+}
+
+#contactez-nous .carousel-caption h1 {
+  font-size: 3em;
+  margin-top: -350px;
+  font-weight: bold;
+  color: white;
+}
+
+#contactez-nous .carousel-caption {
+  font-size: 2em;
+}
+
+#contactez-nous .button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contactez-nous .button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-family: Raleway;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+#contactez-nous p {
+  text-align: center;
+  color: #fff;
+}
+
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+footer img {
+  text-align: center;
+  width: 175px;
+  height: 175px;
+}
+
+footer .d-row .col-md-3:not(:first-child){
+  padding: 3rem 0;
+}
+
+footer .d-row {
+  justify-content: space-evenly;
+}
+
+footer .col-md-3 {
+  width: 20%;
+  justify-content: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+footer h3 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+footer .subtext {
+  color: #cccccc9d;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+footer .button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer .button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: Raleway;
+  background-color: rgba(0, 0, 255, 0.671);
+  color: #ffffffa6;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+footer p {
+  text-align: justify;
+  font-family: Raleway;
+}
+
+
+/* Style pour les écrans de petite taille */
+@media screen and (max-width: 480px) {
+  /* Ajouter le CSS approprié pour les écrans de petite taille */
+  body {
+    font-size: 14px;
+  }
+  /* Réduire la largeur du logo */
+  .logo {
+    width: 80%;
+  }
+  /* Réduire la largeur des sections */
+  section {
+    width: 90%;
+  }
+}
+
+/* Style pour les écrans de taille moyenne */
+@media screen and (max-width: 768px) {
+  /* Ajouter le CSS approprié pour les écrans de taille moyenne */
+  body {
+    font-size: 16px;
+  }
+  /* Réduire la largeur du logo */
+  .logo {
+    width: 70%;
+  }
+  /* Réduire la largeur des sections */
+  section {
+    width: 80%;
+  }
+}
+
+/* Style pour les écrans de grande taille */
+@media screen and (min-width: 1024px) {
+  /* Ajouter le CSS approprié pour les écrans de grande taille */
+  body {
+    font-size: 18px;
+  }
+  /* Agrandir la largeur du logo */
+  .logo {
+    width: 100%;
+  }
+  /* Agrandir la largeur des sections */
+  section {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .main-timeline .date-content {
+      margin-top: 35px
+  }
+  .main-timeline .date-content:before {
+      width: 22.5%
+  }
+  .main-timeline .timeline-content {
+      padding: 10px 0 10px 30px
+  }
+  .main-timeline .title {
+      font-size: 17px
+  }
+  .main-timeline .timeline:nth-child(2n) .timeline-content {
+      padding: 10px 30px 10px 0
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main-timeline:before {
+      margin: 0;
+      left: 7px
+  }
+  .main-timeline .timeline {
+      margin-bottom: 20px
+  }
+  .main-timeline .timeline:last-child {
+      margin-bottom: 0
+  }
+  .main-timeline .icon {
+      margin: auto 0
+  }
+  .main-timeline .date-content {
+      width: 95%;
+      float: right;
+      margin-top: 0
+  }
+  .main-timeline .date-content:before {
+      display: none
+  }
+  .main-timeline .date-outer {
+      width: 110px;
+      height: 110px
+  }
+  .main-timeline .date-outer:before,
+  .main-timeline .date-outer:after {
+      width: 110px;
+      height: 110px
+  }
+  .main-timeline .date {
+      top: 30%
+  }
+  .main-timeline .year {
+      font-size: 24px
+  }
+  .main-timeline .timeline-content,
+  .main-timeline .timeline:nth-child(2n) .timeline-content {
+      width: 95%;
+      text-align: center;
+      padding: 10px 0
+  }
+  .main-timeline .title {
+      margin-bottom: 10px
+  }
+}

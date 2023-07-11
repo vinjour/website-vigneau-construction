@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VigneauConstruction - Bienvenue</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/validate_mail.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <a class="navbar-brand">
+      <img src="https://www.pagesjaunes.fr/media/agc/c3/67/31/00/00/9a/60/e4/9f/3a/6405c3673100009a60e49f3a/6405c3673100009a60e49f3b.png" width="50" height="50" alt="">
+    </a>
+    <a class="navbar-brand" href="#">Vigneau Construction</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="accueil.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="agence.html">L'agence</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="missions.html">Missions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="realisation.html">Réalisation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="photo_ecriveznous">
+    <div class="container-fluid">
+      <div class="d-flex d-row">
+        <div class="col text-center">
+          <img class="img-fluid d-block" src="images/ecrivez-nous.jpeg">
+          <div class="carousel-caption">
+            <h1>écrivez-nous</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="futur-projet">
+    <div class="container-fluid">
+      <div class="d-flex d-row">
+        <div class="col-md-6">
+          <h1>un projet en tête ?</h1>
+          <p>Discutons des détails</p>
+          <h2>Appelez-nous</h2>
+          <h3>+33 6 38 83 20 29</h3>
+          <a style="color: black;" href="https://www.instagram.com/viigno" role="button"><i class="fa-brands fa-instagram"></i></a>
+          <a style="color: black;" href="https://twitter.com/" role="button"><i class="fa-brands fa-twitter"></i></a>
+          <a style="color: black;" href="https://www.facebook.com/profile.php?id=100090458014235" role="button"><i class="fa-brands fa-facebook-f"></i></a>
+          <a style="color: black;" href="https://www.linkedin.com/in/vigneau-simon-25818026a" role="button"><i class="fa-brands fa-linkedin-in"></i></a>
+        
+        </div>
+        <div class="col-md-6">
+          <form id="contact" class="text-center border border-light p-5" action="mail_contact.php">
+            <input type="text" id="name" class="form-control mb-4" placeholder="Nom">
+            <input type="email" id="email" class="form-control mb-4" placeholder="E-mail">
+            <select id="subject" class="browser-default custom-select mb-4">
+                <option value="" selected disabled>Choisir un objet</option>
+                <option value="1">Retour client</option>
+                <option value="2">Projet de construction</option>
+                <option value="3">Projet de rénovation</option>
+                <option value="4">Prise d'informations</option>
+                <option value="5">Autre</option>
+            </select>
+            <div class="form-group">
+                <textarea class="form-control rounded-0" id="message" rows="3" placeholder="Message"></textarea>
+            </div>
+            <button class="btn btn-info btn-block" type="submit" onclick="validateFrom();">Envoyer</button>
+          </form>
+          <div class="status"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="d-flex d-row">
+        <div class="col-md-3">
+          <img src="images/logo.png" alt="Logo Vigneau Construction">
+          <h3>VIGNEAU CONSTRUCTION</h3>
+          <p class="subtext"> <br></p>
+          <p class="subtext">Maîtrise d'oeuvre du bâtiment</p>
+          <p class="subtext">Spécialisé dans les maisons individuelles et le tertiaire</p>
+        </div>
+        <div class="col-md-3">
+          <h3>BUREAU DE CASTELJALOUX</h3>
+          <p class="subtext"> <br></p>
+          <p class="subtext">N'hésitez pas à visiter notre bureau de consultation ou contactez-nous pour plus
+            d'informations</p>
+          <p class="subtext">+33 6 38 83 20 29<br>accueil@vigneau-construction.fr</p>
+          <p class="subtext">600 chemin de la hournère<br>47700 CASTELJALOUX</p>
+        </div>
+        <div class="col-md-3">
+          <h3>SUIVEZ-NOUS</h3>
+          <p class="subtext"> <br></p>
+          <div class="button-container">
+            <a href="https://www.instagram.com/viigno" class="button">Suivre sur Instagram</a>
+            <a href="https://www.linkedin.com/in/vigneau-simon-25818026a" class="button">Suivre sur Linkedin &ensp;</a>
+            <a href="https://www.facebook.com/profile.php?id=100090458014235" class="button">Suivre sur Facebook&nbsp;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Vigneau Construction, Tous droits réservés
+  </div>
+  </footer>
+</body>
+</html>
