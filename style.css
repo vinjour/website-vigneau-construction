@@ -1,6 +1,23 @@
 
 /* header */
 
+.navbar .nav-item .dropdown-menu {
+  display: none;
+  margin-top:0;
+}
+
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item {
+  color: grey;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item:hover {
+  color: #3c434a;
+}
+
 .navbar-nav li ul {
   display: none;
   margin: 0;
@@ -14,13 +31,11 @@
 }
 
 .navbar-nav li a {
-  color: #ffffff00;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 .navbar-nav ul li a {
-  color: #ffffff00;
   text-transform: uppercase;
   font-weight: bold;
 }
