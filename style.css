@@ -112,7 +112,7 @@
   text-transform: uppercase;
   font-weight: bold;
   color: black;
-  font-size: 3ch;
+  font-size: 4ch;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -135,8 +135,10 @@
 }
 
 #identite p {
+  font-size: 2.5ch;
   text-align: justify;
   font-family: Raleway;
+  line-height: 1.9em;
 }
 
 #exemple-projets h2 {
@@ -153,7 +155,7 @@
   justify-content: center;
   text-transform: uppercase;
   color: black;
-  font-size: 3ch;
+  font-size: 4.5ch;
   margin-top: 1rem;
 }
 
@@ -186,7 +188,10 @@
 }
 
 #exemple-projets p {
+  font-size: 2.5ch;
+  text-align: center;
   font-family: Raleway;
+  line-height: 1.9em;
 }
 
 #culture-entreprise h2 {
@@ -203,7 +208,7 @@
   text-transform: uppercase;
   font-weight: bold;
   color: black;
-  font-size: 3ch;
+  font-size: 4ch;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -224,8 +229,10 @@
 }
 
 #culture-entreprise p {
+  font-size: 2.5ch;
   text-align: justify;
   font-family: Raleway;
+  line-height: 1.9em;
 }
 
 
@@ -314,6 +321,7 @@
   text-align: justify;
   font-family: Raleway;
   margin-left: 3rem;
+  line-height: 1.9em;
 }
 
 #expertise-projet h2 {
@@ -361,6 +369,7 @@
   justify-content: center;
   font-family: Raleway;
   font-size: 2ch;
+  line-height: 1.9em;
   color: #666;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -410,7 +419,7 @@
   text-transform: uppercase;
   font-weight: bold;
   color: black;
-  font-size: 5ch;
+  font-size: 4ch;
   margin-bottom: 1rem;
 }
 
@@ -437,6 +446,7 @@
 #description-services p {
   margin-top: 1rem;
   font-size: 2.5ch;
+  line-height: 1.9em;
   text-align: justify;
   font-family: Raleway;
 }
@@ -472,11 +482,6 @@
   position: relative;
 }
 
-#solutions-conception .main-timeline .timeline:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 
 #solutions-conception .main-timeline .icon {
   width: 8px;
@@ -489,45 +494,30 @@
   right: 0;
 }
 
-#solutions-conception .main-timeline .icon:before,
-#solutions-conception .main-timeline .icon:after {
+#solutions-conception .main-timeline .icon {
   content: "";
-  width: 100%;
-  height: 100%;
+  width: 0.7ch;
+  height: 0.7ch;
   border-radius: 50%;
   position: absolute;
   top: 0;
   left: 0;
-}
-
-#solutions-conception .main-timeline .icon:after {
   border: solid black;
 }
 
-
-#solutions-conception .main-timeline .date-content {
-  width: 50%;
-  float: left;
-  margin-top: 22px;
-  position: relative;
+#solutions-conception .main-timeline .timeline-content {
+  text-align: right;
+  justify-content: center;
+  padding: 20px 1090px 20px 0;
 }
 
-#solutions-conception .main-timeline .date-content:before {
+#solutions-conception .main-timeline .timeline-content:before {
   content: "";
-  width: 7%;
+  width: 8%;
   height: 2px;
   background: black;
-  margin: auto 0;
   position: absolute;
-  top: 0;
-  right: 10px;
-  bottom: 0;
-}
-
-#solutions-conception .main-timeline .timeline-content {
-  width: 50%;
-  padding: 20px 0 20px 50px;
-  float: right
+  top: 7.5rem;
 }
 
 #solutions-conception .main-timeline .title {
@@ -535,28 +525,22 @@
   font-weight: 700;
   line-height: 24px;
   margin-right: 3rem;
-  margin-left: 3rem;
-  margin-bottom: 3rem;
+  margin-left: 13rem;
+  margin-bottom: 2.5rem;
 }
 
 #solutions-conception .main-timeline .description {
   margin-right: 3rem;
-  margin-left: 3rem;
+  margin-left: 13rem;
   font-family: Raleway;
+  line-height: 1.9em;
   color: #666;
 }
 
-#solutions-conception .main-timeline .timeline:nth-child(2n) .date-content {
-  float: right;
-}
-
-#solutions-conception .main-timeline .timeline:nth-child(2n) .date-content:before {
-  left: 10px;
-}
-
 #solutions-conception .main-timeline .timeline:nth-child(2n) .timeline-content {
-  padding: 20px 50px 20px 0;
-  text-align: right;
+  text-align: left;
+  justify-content: center;
+  padding: 20px 0 20px 940px;
 }
 
 #service-expert h2 {
@@ -590,11 +574,6 @@
   position: relative;
 }
 
-#service-expert .main-timeline .timeline:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 
 #service-expert .main-timeline .icon {
   width: 8px;
@@ -607,45 +586,30 @@
   right: 0;
 }
 
-#service-expert .main-timeline .icon:before,
-#service-expert .main-timeline .icon:after {
+#service-expert .main-timeline .icon {
   content: "";
-  width: 100%;
-  height: 100%;
+  width: 0.7ch;
+  height: 0.7ch;
   border-radius: 50%;
   position: absolute;
   top: 0;
   left: 0;
-}
-
-#service-expert .main-timeline .icon:after {
   border: solid black;
 }
 
-
-#service-expert .main-timeline .date-content {
-  width: 50%;
-  float: left;
-  margin-top: 22px;
-  position: relative;
+#service-expert .main-timeline .timeline-content {
+  text-align: right;
+  justify-content: center;
+  padding: 20px 1090px 20px 0;
 }
 
-#service-expert .main-timeline .date-content:before {
+#service-expert .main-timeline .timeline-content:before {
   content: "";
-  width: 7%;
+  width: 8%;
   height: 2px;
   background: black;
-  margin: auto 0;
   position: absolute;
-  top: 0;
-  right: 10px;
-  bottom: 0;
-}
-
-#service-expert .main-timeline .timeline-content {
-  width: 50%;
-  padding: 20px 0 20px 50px;
-  float: right
+  top: 7.5rem;
 }
 
 #service-expert .main-timeline .title {
@@ -653,28 +617,22 @@
   font-weight: 700;
   line-height: 24px;
   margin-right: 3rem;
-  margin-left: 3rem;
-  margin-bottom: 3rem;
+  margin-left: 13rem;
+  margin-bottom: 2.5rem;
 }
 
 #service-expert .main-timeline .description {
   margin-right: 3rem;
-  margin-left: 3rem;
+  margin-left: 13rem;
   font-family: Raleway;
+  line-height: 1.9em;
   color: #666;
 }
 
-#service-expert .main-timeline .timeline:nth-child(2n) .date-content {
-  float: right;
-}
-
-#service-expert .main-timeline .timeline:nth-child(2n) .date-content:before {
-  left: 10px;
-}
-
 #service-expert .main-timeline .timeline:nth-child(2n) .timeline-content {
-  padding: 20px 50px 20px 0;
-  text-align: right;
+  text-align: left;
+  justify-content: center;
+  padding: 50px 0 20px 940px;
 }
 
 
@@ -712,6 +670,7 @@
 #exemple-realisation p {
   font-family: Raleway;
   font-size: 2.5ch;
+  line-height: 1.9em;
 }
 
 #exemple-realisation img {
@@ -813,6 +772,7 @@
 #futur-projet p {
   margin-top: 3rem;
   font-size: 3ch;
+  line-height: 1.9em;
   text-align: justify;
   font-family: Raleway;
 }
@@ -864,12 +824,12 @@
 #contactez-nous button {
   font-family: Raleway;
   margin-top: 2rem;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 900;
   border: transparent;
   background: transparent;
   color: white;
-  padding: 0.7rem 2rem;
+  padding: 1rem 2rem;
   margin: 1rem;
   position: relative;
   z-index: 1;
@@ -884,7 +844,7 @@
   background: white;
   position: absolute;
   z-index: -1;
-  padding: 0.7rem 2rem;
+  padding: 1rem 2rem;
   display: block;
 }
 #contactez-nous button[class^="slide"]::after {
@@ -986,6 +946,7 @@ footer .button {
 
 footer p {
   text-align: justify;
+  line-height: 1.9em;
   font-family: Raleway;
 }
 
