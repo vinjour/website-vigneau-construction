@@ -58,6 +58,21 @@
   margin: auto;
 }
 
+#myCarousel .carousel-caption h1 {
+  font-size: 4.5em;
+  margin-top: -600px;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-weight: 650;
+  text-transform: uppercase;
+  color: white;
+}
+
+#myCarousel .carousel-caption {
+  font-size: 2.3ch;
+}
+
+
 #realisation-reve h2 {
   text-align: left;
   text-transform: uppercase;
@@ -131,7 +146,7 @@
 #exemple-realisation h2 {
   text-align: center;
   justify-content: center;
-  font-size: 7ch;
+  font-size: 11ch;
   margin-top: 8rem;
   margin-bottom: 1rem;
   font-weight: bold;
@@ -263,76 +278,45 @@
   line-height: 1.9em;
 }
 
-#exemple-projets h2 {
+#maitre-oeuvre h1 {
   text-align: center;
   justify-content: center;
-  font-size: 7ch;
+  font-size: 11ch;
   margin-top: 8rem;
-  margin-bottom: 1rem;
+  margin-bottom: 10rem;
   font-weight: bold;
 }
 
-#exemple-projets h3 {
-  text-align: center;
-  justify-content: center;
-  text-transform: uppercase;
-  color: black;
-  font-size: 4.5ch;
-  margin-top: 1rem;
+#culture-entreprise {
+  background-color: #f7f3f3;
 }
 
-#exemple-projets h4 {
-  text-align: center;
+#culture-entreprise .img-fluid {
   justify-content: center;
-  font-family: Raleway;
-  font-size: 1.5ch;
-  color: #666;
-  margin-bottom: 3rem;
+  margin-top: 15rem;
 }
 
-#exemple-projets .container {
-  max-width: 2000px;
+#culture-entreprise h1 {
   text-align: center;
-  justify-content: center;
-}
-
-#exemple-projets .d-row {
-  text-align: center;
-  justify-content: center;
-  font-size: 1ch;
-  color: #666;
-}
-
-#exemple-projets .col-md-3 {
-  width: 30%;
-  text-align: center;
-  justify-content: center;
-}
-
-#exemple-projets p {
-  font-size: 2.5ch;
-  text-align: center;
-  font-family: Raleway;
-  line-height: 1.9em;
+  font-size: 7ch;
+  border-left: 10 rem;
+  font-weight: bold;
+  margin-top: 10rem;
 }
 
 #culture-entreprise h2 {
   text-align: center;
   font-size: 7ch;
-  margin-top: 8rem;
-  margin-bottom: 3rem;
   border-left: 10 rem;
   font-weight: bold;
 }
 
 #culture-entreprise h3 {
-  text-align: left;
-  text-transform: uppercase;
+  text-align: center;
   font-weight: bold;
   color: black;
   font-size: 4ch;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 10rem;
 }
 
 #culture-entreprise .container {
@@ -344,10 +328,6 @@
   justify-content: space-evenly;
   font-size: 1.5ch;
   color: #666;
-}
-
-#culture-entreprise .col-md-3 {
-  width: 30%;
 }
 
 #culture-entreprise p {
@@ -924,7 +904,6 @@
   height: 500px;
   text-align: center;
   margin: auto;
-  margin-top: 8rem;
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 
