@@ -172,7 +172,7 @@
   line-height: 1.9em;
 }
 
-#type-realisation button {
+#type-realisation .button {
   font-family: Raleway;
   margin-top: 2rem;
   font-size: 1.3rem;
@@ -267,7 +267,7 @@
   line-height: 1.9em;
 }
 
-#exemple-realisation button {
+#exemple-realisation .button {
   font-family: Raleway;
   margin-top: 2rem;
   font-size: 1.3rem;
@@ -354,7 +354,7 @@
   margin-bottom: 5rem;
 }
 
-#plan-conception button {
+#plan-conception .button {
   font-family: Raleway;
   margin-top: 2rem;
   font-size: 1.3rem;
@@ -441,7 +441,7 @@
   margin-bottom: 7rem;
 }
 
-#accompagnement-expert button {
+#accompagnement-expert .button {
   font-family: Raleway;
   margin-top: 2rem;
   font-size: 1.3rem;
@@ -499,7 +499,7 @@
   line-height: 2.5ch;
   font-weight: 600;
   color: whitesmoke;
-  margin-top: 6rem;
+
 }
 
 #gamme-services .container-fluid {
@@ -512,7 +512,6 @@
   justify-content: space-evenly;
   font-size: 1.5ch;
   color: whitesmoke;
-  margin-bottom: 3rem;
 }
 
 #gamme-services .col-md-3 {
@@ -526,7 +525,6 @@
   font-weight: lighter;
   text-align: left;
   font-family: Raleway;
-  margin-top: 2rem;
 }
 
 #gamme-services hr {
@@ -535,23 +533,24 @@
   width: 400px;
 }
 
-#gamme-services button {
+#gamme-services .col {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+
+#gamme-services .button {
   font-family: Raleway;
-  margin-top: 2rem;
   font-size: 1.3rem;
   font-weight: 900;
   border: transparent;
   background: transparent;
   color: whitesmoke;
   padding: 1rem 2rem;
-  margin: 1rem;
   position: relative;
-  z-index: 1;
   overflow: hidden;
-  margin-bottom: 4rem;
 }
 
-#gamme-services button:hover {
+#gamme-services .button:hover {
   color: whitesmoke;
 }
 
@@ -1308,7 +1307,7 @@
 }
 
 
-#contactez-nous button {
+#contactez-nous .button {
   font-family: Raleway;
   margin-top: 2rem;
   font-size: 1.3rem;
