@@ -255,9 +255,16 @@
 }
 
 #exemple-realisation .col-md-3 {
-  width: 30%;
+
   text-align: center;
   justify-content: center;
+}
+
+#exemple-realisation .col {
+  text-align: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 #exemple-realisation p {
@@ -315,12 +322,23 @@
 }
 
 #plan-conception {
-  background-color: #ffffff;
+  background-color: #fcf9f9;
 }
 
 #plan-conception .img-fluid {
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#plan-conception .col-md-5 {
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+#plan-conception .col-md-4 {
+  justify-content: center;
+  margin-top: 6rem;
 }
 
 #plan-conception h1 {
@@ -329,13 +347,11 @@
   font-weight: bolder;
   color: black;
   font-size: 8ch;
-  margin-top: 10rem;
+  margin-top: 8rem;
   margin-bottom: 6rem;
 }
 
 #plan-conception .container-fluid {
-  max-width: 2000px;
-  margin-bottom: 8rem;
   text-align: center;
   justify-content: center;
 }
@@ -675,9 +691,16 @@
   background-color: #f7f3f3;
 }
 
+#culture-entreprise .col-md-4 {
+  margin-bottom: 6rem;
+  text-align: center;
+  justify-content: center;
+}
+
 #culture-entreprise .img-fluid {
   justify-content: center;
-  margin-top: 15rem;
+  margin-top: 10rem;
+  margin-bottom: 10 rem;
 }
 
 #culture-entreprise h1 {
@@ -686,7 +709,7 @@
   font-family: "Nanum Pen Script";
   color: black;
   border-left: 10 rem;
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 #culture-entreprise h2 {
@@ -704,11 +727,6 @@
   font-size: 4ch;
   font-family: "Nanum Pen Script";
   margin-bottom: 5rem;
-}
-
-#culture-entreprise .container {
-  max-width: 2000px;
-  margin-bottom: 10rem;
 }
 
 #culture-entreprise .d-row {
