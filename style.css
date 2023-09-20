@@ -402,12 +402,13 @@
 }
 
 #accompagnement-expert {
-  background-color: #ffffff;
+  background-image: url("images/fond_point.PNG");
 }
 
 #accompagnement-expert .img-fluid {
   justify-content: center;
   margin-top: 10rem;
+  margin-bottom: 5rem;
 }
 
 #accompagnement-expert h1 {
@@ -422,7 +423,6 @@
 
 #accompagnement-expert .container-fluid {
   max-width: 2000px;
-  margin-bottom: 8rem;
   text-align: center;
   justify-content: center;
 }
@@ -438,7 +438,7 @@
   text-align: justify;
   font-family: Raleway;
   line-height: 1.9em;
-  margin-bottom: 7rem;
+  margin-bottom: 10rem;
 }
 
 #accompagnement-expert .button {
@@ -505,7 +505,6 @@
 #gamme-services .container-fluid {
   max-width: 2000px;
   text-align: center;
-  margin-top: 5rem;
 }
 
 #gamme-services .d-row {
