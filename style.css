@@ -1358,76 +1358,57 @@
 }
 
 footer {
-  background-color: #000;
-  color: #fff;
-  padding: 2rem 0;
+  background-image: url("images/photo_footer.PNG");
+  color: black;
+  padding: 1rem 0;
 }
 
-footer img {
+footer .img-fluid {
   text-align: center;
-  width: 100px;
-  height: 100px;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 2rem;
   margin-left: 3rem;
+}
+
+footer .col-md-3 {
+  width: 20%;
+  justify-content: left;
+  text-align: left;
 }
 
 footer .d-row .col-md-3:not(:first-child){
   padding: 3rem 0;
 }
 
+footer .d-row .col-md-3:last-child{
+  text-align: center;
+}
+
 footer .d-row {
   justify-content: space-evenly;
-  padding-left: 10rem;
-}
-
-footer .col-md-3 {
-  width: 20%;
-  justify-content: center;
-}
-
-footer ul {
-  list-style: none;
-  padding: 0;
-}
-
-footer ul li {
-  margin-bottom: 0.5rem;
-}
-
-footer ul li a {
-  color: #fff;
-  text-decoration: none;
+  padding-left: 8rem;
 }
 
 footer h3 {
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   font-size: 2.5ch;
-  margin-bottom: 0.5rem;
-  text-align: left;
 }
 
 footer .subtext {
-  color: #cccccc9d;
+  color: black;
   margin-bottom: 0.5rem;
   text-align: left;
 }
 
-footer .button-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-footer .button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-family: Raleway;
-  background-color: rgba(0, 0, 255, 0.671);
-  color: #ffffffa6;
+footer .fa-brands {
+  padding: 20px;
+  font-size: 40px;
+  width: 100px;
+  text-align: center;
   text-decoration: none;
-  margin-bottom: 0.5rem;
+  justify-content: center;
 }
 
 footer p {
