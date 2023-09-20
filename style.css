@@ -834,6 +834,7 @@
 #expertise-projet .container-fluid {
   text-align: center;
   justify-content: space-evenly;
+  margin-bottom: 5rem;
 }
 
 #expertise-projet .d-row {
@@ -841,13 +842,12 @@
   justify-content: space-evenly;
 }
 
-#expertise-projet .col {
+#expertise-projet .col-md-5 {
   text-align: center;
   justify-content: center;
 }
 
 #expertise-projet .img-fluid {
-  width: 400px;
   height: auto;
 }
 
@@ -860,7 +860,7 @@
   color: #666;
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 /* missions.html */
