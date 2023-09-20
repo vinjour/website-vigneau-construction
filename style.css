@@ -83,7 +83,7 @@
   margin-left: 8rem;
 }
 
-#realisation-reve .container {
+#realisation-reve .container-fluid {
   max-width: 2000px;
   text-align: center;
   margin-top: 2rem;
@@ -104,7 +104,7 @@
   margin-bottom: 1rem;
 }
 
-#description-realisation-reve .container {
+#description-realisation-reve .container-fluid {
   max-width: 2000px;
   text-align: center;
 }
@@ -143,12 +143,84 @@
   line-height: 1.9em;
 }
 
+#type-realisation .container-fluid {
+  max-width: 2000px;
+  text-align: center;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+#type-realisation .d-row {
+  text-align: center;
+  justify-content: center;
+  font-size: 1ch;
+  color: #666;
+}
+
+#type-realisation .col-md-3 {
+  width: 30%;
+  text-align: center;
+  justify-content: center;
+}
+
+#type-realisation h1 {
+  font-size: 3.5ch;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  font-family: Raleway;
+  line-height: 1.9em;
+}
+
+#type-realisation button {
+  font-family: Raleway;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+  border: transparent;
+  background: transparent;
+  color: black;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#type-realisation button:hover {
+  color: black;
+}
+#type-realisation button::after {
+  content: "";
+  background: black;
+  position: absolute;
+  z-index: -1;
+  padding: 1rem 2rem;
+  display: block;
+}
+#type-realisation button[class^="slide"]::after {
+  transition: all 0.35s;
+}
+#type-realisation .button[class^="slide"]:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+}
+#type-realisation button.slide_from_left::after {
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+}
+
 #exemple-realisation h2 {
   text-align: center;
   justify-content: center;
   font-size: 11ch;
-  margin-top: 8rem;
-  margin-bottom: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   font-weight: bold;
 }
 
@@ -158,7 +230,6 @@
   text-transform: uppercase;
   color: black;
   font-size: 4.5ch;
-  margin-top: 1rem;
 }
 
 #exemple-realisation h4 {
@@ -167,10 +238,9 @@
   font-family: Raleway;
   font-size: 1.5ch;
   color: #666;
-  margin-bottom: 3rem;
 }
 
-#exemple-realisation .container {
+#exemple-realisation .container-fluid {
   max-width: 2000px;
   text-align: center;
   justify-content: center;
@@ -181,6 +251,7 @@
   justify-content: center;
   font-size: 1ch;
   color: #666;
+  margin-bottom: 1rem;
 }
 
 #exemple-realisation .col-md-3 {
@@ -196,6 +267,321 @@
   line-height: 1.9em;
 }
 
+#exemple-realisation button {
+  font-family: Raleway;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+  border: transparent;
+  background: transparent;
+  color: black;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#exemple-realisation button:hover {
+  color: black;
+}
+
+#exemple-realisation button::after {
+  content: "";
+  background: black;
+  position: absolute;
+  z-index: -1;
+  padding: 1rem 2rem;
+  display: block;
+}
+
+#exemple-realisation button[class^="slide"]::after {
+  transition: all 0.35s;
+}
+
+#exemple-realisation .button[class^="slide"]:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+}
+
+#exemple-realisation button.slide_from_left::after {
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+}
+
+#plan-conception {
+  background-color: #ffffff;
+}
+
+#plan-conception .img-fluid {
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+#plan-conception h1 {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: black;
+  font-size: 8ch;
+  margin-top: 10rem;
+  margin-bottom: 6rem;
+}
+
+#plan-conception .container-fluid {
+  max-width: 2000px;
+  margin-bottom: 8rem;
+  text-align: center;
+  justify-content: center;
+}
+
+#plan-conception .d-row {
+  justify-content: space-evenly;
+  font-size: 1.5ch;
+  color: #666;
+}
+
+#plan-conception p {
+  font-size: 2.5ch;
+  text-align: justify;
+  font-family: Raleway;
+  line-height: 1.9em;
+  margin-bottom: 5rem;
+}
+
+#plan-conception button {
+  font-family: Raleway;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+  border: transparent;
+  background: transparent;
+  color: black;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#plan-conception button:hover {
+  color: black;
+}
+
+#plan-conception button::after {
+  content: "";
+  background: black;
+  position: absolute;
+  z-index: -1;
+  padding: 1rem 2rem;
+  display: block;
+}
+
+#plan-conception button[class^="slide"]::after {
+  transition: all 0.35s;
+}
+
+#plan-conception .button[class^="slide"]:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+}
+
+#plan-conception button.slide_from_left::after {
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+}
+
+#accompagnement-expert {
+  background-color: #ffffff;
+}
+
+#accompagnement-expert .img-fluid {
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+#accompagnement-expert h1 {
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: black;
+  font-size: 8ch;
+  margin-top: 10rem;
+  margin-bottom: 6rem;
+}
+
+#accompagnement-expert .container-fluid {
+  max-width: 2000px;
+  margin-bottom: 8rem;
+  text-align: center;
+  justify-content: center;
+}
+
+#accompagnement-expert .d-row {
+  justify-content: space-evenly;
+  font-size: 1.5ch;
+  color: #666;
+}
+
+#accompagnement-expert p {
+  font-size: 2.5ch;
+  text-align: justify;
+  font-family: Raleway;
+  line-height: 1.9em;
+  margin-bottom: 7rem;
+}
+
+#accompagnement-expert button {
+  font-family: Raleway;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+  border: transparent;
+  background: transparent;
+  color: black;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#accompagnement-expert button:hover {
+  color: black;
+}
+
+#accompagnement-expert button::after {
+  content: "";
+  background: black;
+  position: absolute;
+  z-index: -1;
+  padding: 1rem 2rem;
+  display: block;
+}
+
+#accompagnement-expert button[class^="slide"]::after {
+  transition: all 0.35s;
+}
+
+#accompagnement-expert .button[class^="slide"]:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+}
+
+#accompagnement-expert button.slide_from_left::after {
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+}
+
+#gamme-services {
+  background-color: black;
+}
+
+#gamme-services h1 {
+  text-align: center;
+  justify-content: center;
+  font-size: 14ch;
+  line-height: 2.5ch;
+  font-weight: 600;
+  color: whitesmoke;
+  margin-top: 6rem;
+}
+
+#gamme-services .container-fluid {
+  max-width: 2000px;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+#gamme-services .d-row {
+  justify-content: space-evenly;
+  font-size: 1.5ch;
+  color: whitesmoke;
+  margin-bottom: 3rem;
+}
+
+#gamme-services .col-md-3 {
+  justify-content: left;
+  text-align: left;
+}
+
+#gamme-services h2 {
+  font-size: 3ch;
+  text-transform: none;
+  font-weight: lighter;
+  text-align: left;
+  font-family: Raleway;
+  margin-top: 2rem;
+}
+
+#gamme-services hr {
+  border-top: 3px solid whitesmoke;
+  height: 20px;
+  width: 400px;
+}
+
+#gamme-services button {
+  font-family: Raleway;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+  border: transparent;
+  background: transparent;
+  color: whitesmoke;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-bottom: 4rem;
+}
+
+#gamme-services button:hover {
+  color: whitesmoke;
+}
+
+#gamme-services button::after {
+  content: "";
+  background: whitesmoke;
+  position: absolute;
+  z-index: -1;
+  padding: 1rem 2rem;
+  display: block;
+}
+
+#gamme-services button[class^="slide"]::after {
+  transition: all 0.35s;
+}
+
+#gamme-services .button[class^="slide"]:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+}
+
+#gamme-services button.slide_from_left::after {
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+}
 
 /* agence.html */
 
