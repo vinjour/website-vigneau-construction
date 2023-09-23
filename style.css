@@ -71,15 +71,13 @@ body {
 }
 
 #realisation-reve .container-fluid {
-  max-width: 2000px;
-  text-align: center;
+  text-align: left;
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
 
 #realisation-reve .d-row {
-  text-align: justify;
-  margin-left: 7rem;
+  text-align: left;
 }
 
 #description-realisation-reve h1 {
@@ -92,7 +90,6 @@ body {
 }
 
 #description-realisation-reve .container-fluid {
-  max-width: 2000px;
   text-align: center;
 }
 
@@ -100,10 +97,14 @@ body {
   justify-content: space-evenly;
   font-size: 1.5ch;
   color: #666;
-  margin-left: 1rem;
 }
 
-#description-realisation-reve .col-md-4 {
+#description-realisation-reve .col-5{
+  justify-content: left;
+  text-align: left;
+}
+
+#description-realisation-reve .col-4{
   justify-content: left;
   text-align: left;
 }
@@ -142,8 +143,7 @@ body {
   color: #666;
 }
 
-#type-realisation .col-md-3 {
-  width: 30%;
+#type-realisation .col-3 {
   text-align: center;
   justify-content: center;
 }
@@ -226,7 +226,6 @@ body {
 }
 
 #exemple-realisation .container-fluid {
-  max-width: 2000px;
   text-align: center;
   justify-content: center;
 }
@@ -239,13 +238,12 @@ body {
   margin-bottom: 1rem;
 }
 
-#exemple-realisation .col-md-3 {
-
+#exemple-realisation .col-3 {
   text-align: center;
   justify-content: center;
 }
 
-#exemple-realisation .col {
+#exemple-realisation .col-sm-12 {
   text-align: center;
   justify-content: center;
   margin-top: 2rem;
@@ -316,14 +314,14 @@ body {
   margin-bottom: 5rem;
 }
 
-#plan-conception .col-md-5 {
+#plan-conception .col-5 {
   justify-content: center;
   margin-bottom: 6rem;
 }
 
-#plan-conception .col-md-4 {
+#plan-conception .col-4 {
   justify-content: center;
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
 
 #plan-conception h1 {
