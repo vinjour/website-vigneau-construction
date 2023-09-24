@@ -1321,8 +1321,8 @@ footer .d-row .col-4:last-child{
   text-align: center;
 }
 
-footer .d-row .col-4:last-child h1{
-  margin-bottom: 3rem;
+footer .d-row .col-4:not(:first-child) h1{
+  margin-bottom: 2rem;
 }
 
 footer .d-row {
