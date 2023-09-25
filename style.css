@@ -1,5 +1,6 @@
 body {
-  min-width: fit-content;
+  min-width: min-content;
+  overflow-x: visible;
 }
 
 
