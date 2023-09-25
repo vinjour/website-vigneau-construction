@@ -563,21 +563,18 @@ body {
 
 /* agence.html */
 
-#photo_aproposdenous img {
+#photo_aproposdenous .img-fluid {
   width: 100%;
   height: 700px;
-  position: static;
   text-align: center;
-  margin: auto;
 }
 
 #photo_aproposdenous .carousel-caption h1 {
-  font-size: 7.5em;
+  font-size: 6em;
   text-transform: uppercase;
   font-weight: bold;
   margin-top: -425px;
 }
-
 
 #identite h1 {
   text-align: left;
@@ -680,18 +677,17 @@ body {
 
 /* metier.html */
 
-#photo_metier img {
+#photo_metier .img-fluid {
   width: 100%;
-  height: 600px;
+  height: 700px;
   text-align: center;
-  margin: auto;
 }
 
 #photo_metier .carousel-caption h1 {
-  font-size: 7.5em;
+  font-size: 6em;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: -350px;
+  margin-top: -425px;
 }
 
 
@@ -705,8 +701,7 @@ body {
   margin-left: 8rem;
 }
 
-#maitrise-oeuvre .container {
-  max-width: 2000px;
+#maitrise-oeuvre .container-fluid {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -819,16 +814,16 @@ body {
 
 #photo_missions img {
   width: 100%;
-  height: 600px;
+  height: 700px;
   text-align: center;
   margin: auto;
 }
 
 #photo_missions .carousel-caption h1 {
-  font-size: 7.5em;
+  font-size: 6em;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: -350px;
+  margin-top: -425px;
 }
 
 
@@ -842,8 +837,7 @@ body {
   margin-left: 11rem;
 }
 
-#nos-services .container {
-  max-width: 2000px;
+#nos-services .container-fluid {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -1087,8 +1081,7 @@ body {
   margin-top: 1rem;
 }
 
-#exemple-realisation .container {
-  max-width: 2000px;
+#exemple-realisation .container-fluid {
   text-align: center;
   justify-content: center;
 }
@@ -1144,20 +1137,18 @@ body {
 
 /* blog.html */
 
-#photo_ecriveznous img {
+#photo_ecriveznous .img-fluid {
   width: 100%;
-  height: 800px;
+  height: 700px;
   text-align: center;
-  margin: auto;
 }
 
 #photo_ecriveznous .carousel-caption h1 {
-  font-size: 7em;
+  font-size: 6em;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: -500px;
+  margin-top: -425px;
 }
-
 
 #futur-projet h1 {
   text-align: left;
@@ -1190,21 +1181,18 @@ body {
 }
 
 
-#futur-projet .container {
-  max-width: 2000px;
-  text-align: center;
-}
-
 #futur-projet .d-row {
   justify-content: space-evenly;
   font-size: 1.5ch;
   color: #666;
-  margin-left: 10rem;
-  margin-right: 10rem;
 }
 
-#futur-projet .col-md-6 {
-  width: 500px;
+#futur-projet .col-5 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#futur-projet .col-6 {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
@@ -1219,7 +1207,7 @@ body {
 
 #futur-projet .fa-brands {
   padding: 20px;
-  font-size: 30px;
+  font-size: 40px;
   width: 70px;
   text-align: center;
   text-decoration: none;
@@ -1296,67 +1284,69 @@ body {
   font-family: Raleway;
 }
 
-footer {
+#footer {
   background-image: url("images/photo_footer.PNG");
   color: black;
   padding: 1rem 0;
 }
 
-footer .img-fluid {
+#footer .img-fluid {
   text-align: center;
   width: 140px;
   height: 140px;
   margin-bottom: 2rem;
 }
 
-footer .col-3 {
+#footer .col-4 {
   justify-content: left;
   text-align: left;
 }
 
-footer .d-row .col-3:not(:first-child) {
+#footer .d-row .col-4:not(:first-child) {
   margin-top: 3rem;
 }
 
-footer .d-row .col-3:first-child {
-  margin-right: 5rem;
+#footer .d-row .col-2 {
+  justify-content: left;
+  text-align: left;
+  margin-top: 3rem;
 }
 
-footer .d-row .col-3:last-child {
-  text-align: center;
+#footer .d-row .col-4 h1 {
+  margin-bottom: 2rem;
 }
 
-footer .d-row .col-3 h1 {
-  margin-bottom: 3rem;
+#footer .d-row .col-2 h1 {
+  margin-bottom: 2rem;
 }
 
-footer .d-row {
+#footer .d-row {
   justify-content: space-evenly;
   margin-bottom: 2rem;
 }
 
-footer h1 {
+#footer h1 {
   color: black;
   text-transform: uppercase;
   font-size: 2.5ch;
 }
 
-footer .subtext {
+#footer .subtext {
   color: black;
   margin-bottom: 0.5rem;
   text-align: left;
 }
 
-footer .fa-brands {
+#footer .fa-brands {
   padding: 20px;
-  font-size: 40px;
+  font-size: 35px;
   width: 100px;
   text-align: center;
   text-decoration: none;
   justify-content: center;
 }
 
-footer p {
+#footer p {
   text-align: justify;
   line-height: 1.9em;
   font-family: Raleway;
@@ -1452,6 +1442,139 @@ footer p {
   }
 
 
+  /* agence.html */
+
+  #photo_aproposdenous .img-fluid {
+    width: 100%;
+    height: 450px;
+    text-align: center;
+  }
+  
+  #photo_aproposdenous .carousel-caption h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -250px;
+  }
+  
+  #identite h1 {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 4.5ch;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+  }
+  
+  #identite h2 {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-size: 2.9ch;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #maitre-oeuvre h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 6ch;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    font-weight: bold;
+  }
+
+  #culture-entreprise .img-fluid {
+    justify-content: center;
+    position: static;
+    width: 100%;
+    height: 50%;
+    margin-top: 13rem;
+  }
+  
+  #culture-entreprise h1 {
+    text-align: center;
+    font-size: 12ch;
+    font-family: "Nanum Pen Script";
+    color: black;
+    margin-top: 5rem;
+  }
+  
+  #culture-entreprise h2 {
+    text-align: center;
+    font-size: 12ch;
+    color: black;
+    font-family: "Nanum Pen Script";
+  }
+  
+  #culture-entreprise h3 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 4ch;
+    font-family: "Nanum Pen Script";
+    margin-bottom: 5rem;
+  }
+
+
+/* blog.html */
+
+#photo_ecriveznous .img-fluid {
+  width: 100%;
+  height: 450px;
+  text-align: center;
+}
+
+#photo_ecriveznous .carousel-caption h1 {
+  font-size: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -250px;
+}
+
+#futur-projet h1 {
+  text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 5.3ch;
+}
+
+#futur-projet p {
+  margin-top: 3rem;
+  font-size: 2.5ch;
+  line-height: 1.9em;
+  text-align: justify;
+  font-family: Raleway;
+}
+
+#futur-projet h2 {
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  font-family: Raleway;
+  font-size: 3.5ch;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+}
+
+#futur-projet h3 {
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  font-family: Raleway;
+  font-size: 4.5ch;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+#futur-projet .col-5 {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+
   /* footer */
 
   #contactez-nous .brightness img {
@@ -1483,6 +1606,12 @@ footer p {
     color: white;
     font-family: Raleway;
     margin-bottom: 2rem;
+  }
+
+  #footer h1 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.9ch;
   }
 
 }
@@ -1490,255 +1619,23 @@ footer p {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-  /* accueil.html */
-
-  #myCarousel .carousel-inner .img-fluid {
-    width: 100%;
-    height: 600px;
-  }
-
-  #myCarousel .carousel-caption h1 {
-    font-size: 4.5em;
-    margin-top: -375px;
-    margin-bottom: 1rem;
-    text-align: left;
-    font-weight: 650;
-    text-transform: uppercase;
-    color: white;
-  }
-
-  #myCarousel .carousel-caption {
-    font-size: 1.25ch;
-  }
-
-  #realisation-reve h1 {
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 4ch;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    margin-left: 5rem;
-  }
-
-  #exemple-realisation h1 {
-    text-align: center;
-    justify-content: center;
-    font-size: 5.5ch;
-    margin-top: 6rem;
-    margin-bottom: 2rem;
-    font-weight: bold;
-  }
-
-  #exemple-realisation .img-fluid {
-    width: 100%;
-    height: 65%;
-  }
-
-  #plan-conception h1 {
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: bolder;
-    color: black;
-    font-size: 5ch;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-  }
-
-  #plan-conception .img-fluid {
-    width: 100%;
-    height: 50%;
-    margin-top: 8rem;
-  }
-
-  #accompagnement-expert h1 {
-    text-align: right;
-    text-transform: uppercase;
-    font-weight: bolder;
-    color: black;
-    font-size: 5ch;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-  }
-
-  #accompagnement-expert .img-fluid {
-    width: 100%;
-    height: 50%;
-    margin-top: 8rem;
-  }
-
-  #gamme-services h1 {
-    text-align: center;
-    justify-content: center;
-    font-size: 7ch;
-    line-height: 2.5ch;
-    font-weight: 600;
-    color: whitesmoke;
-  }
-
-
-  /* footer */
-
-  #contactez-nous .brightness img {
-    width: 100%;
-    height: 350px;
-    text-align: center;
-    margin: auto;
-    -webkit-filter: brightness(50%);
-    filter: brightness(50%);
-
-  }
-
-  #contactez-nous .carousel-caption h1 {
-    font-size: 2.5em;
-    margin-top: -220px;
-    margin-bottom: 2rem;
-    font-weight: 630;
-    color: white;
-  }
-
-  #contactez-nous .carousel-caption {
-    font-size: 2ch;
-  }
-
-  #contactez-nous p {
-    text-align: center;
-    font-size: 2.3ch;
-    font-weight: lighter;
-    color: white;
-    font-family: Raleway;
-    margin-bottom: 2rem;
-  }
+  
 
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-  /* accueil.html */
-
-  #myCarousel .carousel-inner .img-fluid {
-    width: 100%;
-    height: 600px;
-  }
-
-  #myCarousel .carousel-caption h1 {
-    font-size: 4.5em;
-    margin-top: -375px;
-    margin-bottom: 1rem;
-    text-align: left;
-    font-weight: 650;
-    text-transform: uppercase;
-    color: white;
-  }
-
-  #myCarousel .carousel-caption {
-    font-size: 1.25ch;
-  }
-
-  #realisation-reve h1 {
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 4ch;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    margin-left: 5rem;
-  }
-
-  #exemple-realisation h1 {
-    text-align: center;
-    justify-content: center;
-    font-size: 5.5ch;
-    margin-top: 6rem;
-    margin-bottom: 2rem;
-    font-weight: bold;
-  }
-
-  #exemple-realisation .img-fluid {
-    width: 100%;
-    height: 65%;
-  }
-
-  #plan-conception h1 {
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: bolder;
-    color: black;
-    font-size: 5ch;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-  }
-
-  #plan-conception .img-fluid {
-    width: 100%;
-    height: 50%;
-    margin-top: 8rem;
-  }
-
-  #accompagnement-expert h1 {
-    text-align: right;
-    text-transform: uppercase;
-    font-weight: bolder;
-    color: black;
-    font-size: 5ch;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-  }
-
-  #accompagnement-expert .img-fluid {
-    width: 100%;
-    height: 50%;
-    margin-top: 8rem;
-  }
-
-  #gamme-services h1 {
-    text-align: center;
-    justify-content: center;
-    font-size: 7ch;
-    line-height: 2.5ch;
-    font-weight: 600;
-    color: whitesmoke;
-  }
-
-
-  /* footer */
-
-  #contactez-nous .brightness img {
-    width: 100%;
-    height: 350px;
-    text-align: center;
-    margin: auto;
-    -webkit-filter: brightness(50%);
-    filter: brightness(50%);
-
-  }
-
-  #contactez-nous .carousel-caption h1 {
-    font-size: 2.5em;
-    margin-top: -220px;
-    margin-bottom: 2rem;
-    font-weight: 630;
-    color: white;
-  }
-
-  #contactez-nous .carousel-caption {
-    font-size: 2ch;
-  }
-
-  #contactez-nous p {
-    text-align: center;
-    font-size: 2.3ch;
-    font-weight: lighter;
-    color: white;
-    font-family: Raleway;
-    margin-bottom: 2rem;
-  }
+  
 
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
