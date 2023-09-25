@@ -1353,7 +1353,7 @@ body {
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media only screen and (max-width: 575.98px) {
+@media only screen and (max-width: 1300px) {
 
   /* accueil.html */
 
