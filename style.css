@@ -65,22 +65,13 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 7ch;
-  margin-top: 8rem;
-  margin-bottom: 5rem;
+  margin-top: 7rem;
+  margin-bottom: 4rem;
   margin-left: 5rem;
 }
 
 #realisation-reve .d-row {
   text-align: left;
-}
-
-#realisation-reve h1 {
-  text-align: left;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: black;
-  font-size: 5ch;
-  margin-bottom: 3rem;
 }
 
 #realisation-reve .container-fluid {
@@ -93,12 +84,12 @@ body {
   color: #666;
 }
 
-#realisation-reve .col-5{
+#realisation-reve .col-5 {
   justify-content: left;
   text-align: left;
 }
 
-#realisation-reve .col-4{
+#realisation-reve .col-4 {
   justify-content: left;
   text-align: left;
 }
@@ -169,6 +160,7 @@ body {
 #type-realisation button:hover {
   color: black;
 }
+
 #type-realisation button::after {
   content: "";
   background: black;
@@ -177,9 +169,11 @@ body {
   padding: 1rem 2rem;
   display: block;
 }
+
 #type-realisation button[class^="slide"]::after {
   transition: all 0.35s;
 }
+
 #type-realisation .button[class^="slide"]:hover::after {
   left: 0;
   right: 0;
@@ -187,6 +181,7 @@ body {
   bottom: 0;
   transition: all 0.35s;
 }
+
 #type-realisation button.slide_from_left::after {
   top: 0;
   bottom: 0;
@@ -236,7 +231,7 @@ body {
 #exemple-realisation .img-fluid {
   position: static;
   width: 100%;
-  height: 80%;
+  height: auto;
 }
 
 #exemple-realisation .col-3 {
@@ -312,8 +307,8 @@ body {
   justify-content: center;
   position: static;
   width: 100%;
-  height: 60%;
-  margin-top: 8rem;
+  height: auto;
+  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
@@ -410,9 +405,9 @@ body {
 #accompagnement-expert .img-fluid {
   justify-content: center;
   width: 100%;
-  height: 50%;
+  height: auto;
   position: static;
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
@@ -488,7 +483,6 @@ body {
   line-height: 2.5ch;
   font-weight: 600;
   color: whitesmoke;
-
 }
 
 #gamme-services .container-fluid {
@@ -640,8 +634,9 @@ body {
   justify-content: center;
   position: static;
   width: 100%;
-  height: 50%;
-  margin-top: 14rem;
+  height: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 #culture-entreprise h1 {
@@ -1122,14 +1117,15 @@ body {
 }
 
 #exemple-realisation .zoom .img-fluid {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
+
 #exemple-realisation .zoom :hover .img-fluid {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 #exemple-realisation .page-item {
@@ -1282,6 +1278,7 @@ body {
 #contactez-nous button:hover {
   color: black;
 }
+
 #contactez-nous button::after {
   content: "";
   background: white;
@@ -1310,29 +1307,31 @@ footer .img-fluid {
   width: 140px;
   height: 140px;
   margin-bottom: 2rem;
-  margin-left: 3rem;
 }
 
-footer .col-4 {
+footer .col-3 {
   justify-content: left;
   text-align: left;
 }
 
-footer .d-row .col-4:not(:first-child){
+footer .d-row .col-3:not(:first-child) {
   margin-top: 3rem;
 }
 
-footer .d-row .col-4:last-child{
+footer .d-row .col-3:first-child {
+  margin-right: 5rem;
+}
+
+footer .d-row .col-3:last-child {
   text-align: center;
 }
 
-footer .d-row .col-4:not(:first-child) h1{
-  margin-bottom: 2rem;
+footer .d-row .col-3 h1 {
+  margin-bottom: 3rem;
 }
 
 footer .d-row {
   justify-content: space-evenly;
-  padding-left: 4rem;
   margin-bottom: 2rem;
 }
 
@@ -1363,87 +1362,468 @@ footer p {
   font-family: Raleway;
 }
 
-/* Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
+/* Extra small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+  /* accueil.html */
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+  #myCarousel .carousel-inner .img-fluid {
+    width: 100%;
+    height: 600px;
+  }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+  #myCarousel .carousel-caption h1 {
+    font-size: 4.5em;
+    margin-top: -375px;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-weight: 650;
+    text-transform: uppercase;
+    color: white;
+  }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
+  #myCarousel .carousel-caption {
+    font-size: 1.25ch;
+  }
+
+  #realisation-reve h1 {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 4ch;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+  }
+
+  #exemple-realisation h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 5.5ch;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+
+  #exemple-realisation .img-fluid {
+    width: 100%;
+    height: 65%;
+  }
+
+  #plan-conception h1 {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: black;
+    font-size: 5ch;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  #plan-conception .img-fluid {
+    width: 100%;
+    height: 50%;
+    margin-top: 8rem;
+  }
+
+  #accompagnement-expert h1 {
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: black;
+    font-size: 5ch;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  #accompagnement-expert .img-fluid {
+    width: 100%;
+    height: 50%;
+    margin-top: 8rem;
+  }
+
+  #gamme-services h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 7ch;
+    line-height: 2.5ch;
+    font-weight: 600;
+    color: whitesmoke;
+  }
+
+
+  /* footer */
+
+  #contactez-nous .brightness img {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+
+  }
+
+  #contactez-nous .carousel-caption h1 {
+    font-size: 2.5em;
+    margin-top: -220px;
+    margin-bottom: 2rem;
+    font-weight: 630;
+    color: white;
+  }
+
+  #contactez-nous .carousel-caption {
+    font-size: 2ch;
+  }
+
+  #contactez-nous p {
+    text-align: center;
+    font-size: 2.3ch;
+    font-weight: lighter;
+    color: white;
+    font-family: Raleway;
+    margin-bottom: 2rem;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  /* accueil.html */
+
+  #myCarousel .carousel-inner .img-fluid {
+    width: 100%;
+    height: 600px;
+  }
+
+  #myCarousel .carousel-caption h1 {
+    font-size: 4.5em;
+    margin-top: -375px;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-weight: 650;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  #myCarousel .carousel-caption {
+    font-size: 1.25ch;
+  }
+
+  #realisation-reve h1 {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 4ch;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+  }
+
+  #exemple-realisation h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 5.5ch;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+
+  #exemple-realisation .img-fluid {
+    width: 100%;
+    height: 65%;
+  }
+
+  #plan-conception h1 {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: black;
+    font-size: 5ch;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  #plan-conception .img-fluid {
+    width: 100%;
+    height: 50%;
+    margin-top: 8rem;
+  }
+
+  #accompagnement-expert h1 {
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: black;
+    font-size: 5ch;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  #accompagnement-expert .img-fluid {
+    width: 100%;
+    height: 50%;
+    margin-top: 8rem;
+  }
+
+  #gamme-services h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 7ch;
+    line-height: 2.5ch;
+    font-weight: 600;
+    color: whitesmoke;
+  }
+
+
+  /* footer */
+
+  #contactez-nous .brightness img {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+
+  }
+
+  #contactez-nous .carousel-caption h1 {
+    font-size: 2.5em;
+    margin-top: -220px;
+    margin-bottom: 2rem;
+    font-weight: 630;
+    color: white;
+  }
+
+  #contactez-nous .carousel-caption {
+    font-size: 2ch;
+  }
+
+  #contactez-nous p {
+    text-align: center;
+    font-size: 2.3ch;
+    font-weight: lighter;
+    color: white;
+    font-family: Raleway;
+    margin-bottom: 2rem;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  /* accueil.html */
+
+  #myCarousel .carousel-inner .img-fluid {
+    width: 100%;
+    height: 600px;
+  }
+
+  #myCarousel .carousel-caption h1 {
+    font-size: 4.5em;
+    margin-top: -375px;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-weight: 650;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  #myCarousel .carousel-caption {
+    font-size: 1.25ch;
+  }
+
+  #realisation-reve h1 {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 4ch;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+  }
+
+  #exemple-realisation h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 5.5ch;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+
+  #exemple-realisation .img-fluid {
+    width: 100%;
+    height: 65%;
+  }
+
+  #plan-conception h1 {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: black;
+    font-size: 5ch;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  #plan-conception .img-fluid {
+    width: 100%;
+    height: 50%;
+    margin-top: 8rem;
+  }
+
+  #accompagnement-expert h1 {
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: black;
+    font-size: 5ch;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  #accompagnement-expert .img-fluid {
+    width: 100%;
+    height: 50%;
+    margin-top: 8rem;
+  }
+
+  #gamme-services h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 7ch;
+    line-height: 2.5ch;
+    font-weight: 600;
+    color: whitesmoke;
+  }
+
+
+  /* footer */
+
+  #contactez-nous .brightness img {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+
+  }
+
+  #contactez-nous .carousel-caption h1 {
+    font-size: 2.5em;
+    margin-top: -220px;
+    margin-bottom: 2rem;
+    font-weight: 630;
+    color: white;
+  }
+
+  #contactez-nous .carousel-caption {
+    font-size: 2ch;
+  }
+
+  #contactez-nous p {
+    text-align: center;
+    font-size: 2.3ch;
+    font-weight: lighter;
+    color: white;
+    font-family: Raleway;
+    margin-bottom: 2rem;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
 
 
 
 
 @media only screen and (max-width: 991px) {
   .main-timeline .date-content {
-      margin-top: 35px
+    margin-top: 35px
   }
+
   .main-timeline .date-content:before {
-      width: 22.5%
+    width: 22.5%
   }
+
   .main-timeline .timeline-content {
-      padding: 10px 0 10px 30px
+    padding: 10px 0 10px 30px
   }
+
   .main-timeline .title {
-      font-size: 17px
+    font-size: 17px
   }
+
   .main-timeline .timeline:nth-child(2n) .timeline-content {
-      padding: 10px 30px 10px 0
+    padding: 10px 30px 10px 0
   }
 }
 
 @media only screen and (max-width: 767px) {
   .main-timeline:before {
-      margin: 0;
-      left: 7px
+    margin: 0;
+    left: 7px
   }
+
   .main-timeline .timeline {
-      margin-bottom: 20px
+    margin-bottom: 20px
   }
+
   .main-timeline .timeline:last-child {
-      margin-bottom: 0
+    margin-bottom: 0
   }
+
   .main-timeline .icon {
-      margin: auto 0
+    margin: auto 0
   }
+
   .main-timeline .date-content {
-      width: 95%;
-      float: right;
-      margin-top: 0
+    width: 95%;
+    float: right;
+    margin-top: 0
   }
+
   .main-timeline .date-content:before {
-      display: none
+    display: none
   }
+
   .main-timeline .date-outer {
-      width: 110px;
-      height: 110px
+    width: 110px;
+    height: 110px
   }
+
   .main-timeline .date-outer:before,
   .main-timeline .date-outer:after {
-      width: 110px;
-      height: 110px
+    width: 110px;
+    height: 110px
   }
+
   .main-timeline .date {
-      top: 30%
+    top: 30%
   }
+
   .main-timeline .year {
-      font-size: 24px
+    font-size: 24px
   }
+
   .main-timeline .timeline-content,
   .main-timeline .timeline:nth-child(2n) .timeline-content {
-      width: 95%;
-      text-align: center;
-      padding: 10px 0
+    width: 95%;
+    text-align: center;
+    padding: 10px 0
   }
+
   .main-timeline .title {
-      margin-bottom: 10px
+    margin-bottom: 10px
   }
 }
