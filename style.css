@@ -10,12 +10,16 @@ body {
   display: block;
 }
 
+#header .nav-item .nav-link {
+  color: black;
+}
+
 #header .nav-item .dropdown-menu .dropdown-item {
-  color: grey;
+  color: black;
 }
 
 #header .nav-item .dropdown-menu .dropdown-item:hover {
-  color: #3c434a;
+  color: black;
 }
 
 #header li a {
@@ -40,19 +44,18 @@ body {
 }
 
 #myCarousel .carousel-inner .img-fluid {
-  height: 800px;
+  height: 850px;
   width: 100%;
   text-align: center;
   position: static;
 }
 
 #myCarousel .carousel-caption h1 {
-  font-size: 4.5em;
+  font-size: 5em;
   margin-top: -550px;
   margin-bottom: 1rem;
   text-align: left;
   font-weight: 650;
-  text-transform: uppercase;
   color: white;
 }
 
@@ -63,12 +66,12 @@ body {
 
 #realisation-reve h1 {
   text-align: left;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 7ch;
+  justify-content: center;
+  font-size: 8ch;
   margin-top: 7rem;
-  margin-bottom: 4rem;
-  margin-left: 5rem;
+  margin-bottom: 5rem;
+  font-weight: bold;
+  margin-left: 10rem;
 }
 
 #realisation-reve .d-row {
@@ -81,7 +84,7 @@ body {
 
 #realisation-reve .d-row {
   justify-content: space-evenly;
-  font-size: 1.5ch;
+  font-size: 1.4ch;
   color: #666;
 }
 
@@ -315,7 +318,7 @@ body {
 
 #plan-conception .col-5 {
   justify-content: center;
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
 }
 
 #plan-conception .col-4 {
@@ -325,10 +328,10 @@ body {
 
 #plan-conception h1 {
   text-align: left;
-  text-transform: uppercase;
-  font-weight: bolder;
+  justify-content: center;
+  font-size: 10ch;
   color: black;
-  font-size: 8ch;
+  font-weight: bold;
   margin-top: 8rem;
   margin-bottom: 6rem;
 }
@@ -340,7 +343,7 @@ body {
 
 #plan-conception .d-row {
   justify-content: space-evenly;
-  font-size: 1.5ch;
+  font-size: 1.4ch;
   color: #666;
 }
 
@@ -408,17 +411,17 @@ body {
   width: 100%;
   height: auto;
   position: static;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 7rem;
+  margin-bottom: 6rem;
 }
 
 #accompagnement-expert h1 {
-  text-align: right;
-  text-transform: uppercase;
-  font-weight: bolder;
+  text-align: left;
+  justify-content: center;
+  font-size: 10ch;
   color: black;
-  font-size: 8ch;
-  margin-top: 5rem;
+  font-weight: bold;
+  margin-top: 7rem;
   margin-bottom: 5rem;
 }
 
@@ -433,13 +436,13 @@ body {
 
 #accompagnement-expert .d-row {
   justify-content: space-evenly;
-  font-size: 1.5ch;
+  font-size: 1.4ch;
   color: #666;
 }
 
 #accompagnement-expert p {
   font-size: 2.5ch;
-  text-align: right;
+  text-align: justify;
   font-family: Raleway;
   line-height: 1.9em;
   margin-bottom: 6rem;
@@ -692,54 +695,25 @@ body {
 }
 
 
-#maitrise-oeuvre h2 {
+#maitrise-oeuvre h1 {
   text-align: left;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 7ch;
   margin-top: 8rem;
   margin-bottom: 5rem;
-  margin-left: 8rem;
+  margin-left: 10rem;
 }
 
 #maitrise-oeuvre .container-fluid {
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
 }
 
 #maitrise-oeuvre .d-row {
   text-align: justify;
-  margin-left: 7rem;
 }
 
-#description-maitrise-oeuvre h1 {
-  text-align: left;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: black;
-  font-size: 5ch;
-  margin-bottom: 1rem;
-}
-
-#description-maitrise-oeuvre .container {
-  max-width: 2000px;
-  text-align: center;
-}
-
-#description-maitrise-oeuvre .d-row {
-  justify-content: space-evenly;
-  font-size: 1.5ch;
-  color: #666;
-  margin-left: 1rem;
-}
-
-#description-maitrise-oeuvre .col-md-4 {
-  justify-content: left;
-  text-align: left;
-}
-
-#description-maitrise-oeuvre h1 {
+#maitrise-oeuvre h2 {
   font-size: 3ch;
   text-transform: none;
   font-weight: lighter;
@@ -747,11 +721,22 @@ body {
   font-family: Raleway;
 }
 
-#description-maitrise-oeuvre hr {
+#maitrise-oeuvre .d-row {
+  justify-content: space-evenly;
+  font-size: 1.5ch;
+  color: #666;
+}
+
+#maitrise-oeuvre .col-5 {
+  justify-content: left;
+  text-align: left;
+}
+
+#maitrise-oeuvre hr {
   border-top: 3px solid #000;
 }
 
-#description-maitrise-oeuvre p {
+#maitrise-oeuvre p {
   font-size: 2.5ch;
   text-align: justify;
   font-family: Raleway;
@@ -759,16 +744,16 @@ body {
   line-height: 1.9em;
 }
 
-#expertise-projet h2 {
+#expertise-projet h1 {
   text-align: center;
   justify-content: center;
-  font-size: 12ch;
-  margin-top: 10rem;
+  font-size: 9ch;
+  margin-top: 12rem;
   margin-bottom: 10rem;
   font-weight: bold;
 }
 
-#expertise-projet h3 {
+#expertise-projet h2 {
   text-align: left;
   justify-content: left;
   color: black;
@@ -790,7 +775,7 @@ body {
   justify-content: space-evenly;
 }
 
-#expertise-projet .col-md-5 {
+#expertise-projet .col-5 {
   text-align: center;
   justify-content: center;
 }
@@ -835,7 +820,7 @@ body {
   font-size: 7ch;
   margin-top: 8rem;
   margin-bottom: 5rem;
-  margin-left: 11rem;
+  margin-left: 5rem;
 }
 
 #nos-services .container-fluid {
