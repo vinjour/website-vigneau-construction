@@ -3,29 +3,35 @@ body {
   overflow-x: visible;
 }
 
+.trn {
+  background: transparent;
+}
 
 /* header */
 
+#header {
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0));
+  width: 100%;
+}
+
 #header .nav-item:hover .dropdown-menu {
   display: block;
+  background-color: transparent;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
 }
 
 #header .nav-item .nav-link {
-  color: black;
+  color: white;
 }
 
 #header .nav-item .dropdown-menu .dropdown-item {
-  color: black;
-}
-
-#header .nav-item .dropdown-menu .dropdown-item:hover {
-  color: black;
+  background-color: transparent;
+  color: whitesmoke;
 }
 
 #header li a {
   text-transform: uppercase;
   font-weight: bold;
-  padding-inline: 0.5rem;
   padding-right: 3rem;
   font-size: 2ch;
 }
@@ -38,24 +44,29 @@ body {
 
 /* accueil.html */
 
+#myCarousel {
+  margin-top: -90px;
+}
+
 #myCarousel .carousel-inner {
   text-align: center;
   width: 100%;
 }
 
 #myCarousel .carousel-inner .img-fluid {
-  height: 850px;
+  height: 925px;
   width: 100%;
   text-align: center;
-  position: static;
+  
 }
 
 #myCarousel .carousel-caption h1 {
-  font-size: 5em;
+  font-size: 4.5em;
   margin-top: -550px;
   margin-bottom: 1rem;
   text-align: left;
   font-weight: 650;
+  text-transform: uppercase;
   color: white;
 }
 
@@ -567,17 +578,21 @@ body {
 
 /* agence.html */
 
+#photo_aproposdenous {
+  margin-top: -90px;
+}
+
 #photo_aproposdenous .img-fluid {
   width: 100%;
-  height: 700px;
+  height: 925px;
   text-align: center;
 }
 
 #photo_aproposdenous .carousel-caption h1 {
-  font-size: 6em;
+  font-size: 7em;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: -425px;
+  margin-top: -500px;
 }
 
 #identite h1 {
@@ -681,17 +696,21 @@ body {
 
 /* metier.html */
 
+#photo_metier {
+  margin-top: -90px;
+}
+
 #photo_metier .img-fluid {
   width: 100%;
-  height: 700px;
+  height: 925px;
   text-align: center;
 }
 
 #photo_metier .carousel-caption h1 {
-  font-size: 6em;
+  font-size: 7em;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: -425px;
+  margin-top: -500px;
 }
 
 
@@ -798,18 +817,22 @@ body {
 
 /* missions.html */
 
-#photo_missions img {
+#photo_missions {
+  margin-top: -90px;
+}
+
+#photo_missions .img-fluid {
   width: 100%;
-  height: 700px;
+  height: 925px;
   text-align: center;
   margin: auto;
 }
 
 #photo_missions .carousel-caption h1 {
-  font-size: 6em;
+  font-size: 7em;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: -425px;
+  margin-top: -500px;
 }
 
 
@@ -1123,17 +1146,21 @@ body {
 
 /* blog.html */
 
+#photo_ecriveznous {
+  margin-top: -90px;
+}
+
 #photo_ecriveznous .img-fluid {
   width: 100%;
-  height: 700px;
+  height: 925px;
   text-align: center;
 }
 
 #photo_ecriveznous .carousel-caption h1 {
-  font-size: 6em;
+  font-size: 7em;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: -425px;
+  margin-top: -500px;
 }
 
 #futur-projet h1 {
