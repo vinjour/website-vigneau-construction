@@ -597,32 +597,31 @@ body {
 
 #identite h1 {
   text-align: left;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 7ch;
-  margin-top: 8rem;
+  justify-content: center;
+  font-size: 8ch;
+  margin-top: 7rem;
   margin-bottom: 5rem;
-  margin-left: 5rem;
+  font-weight: bold;
+  margin-left: 6rem;
 }
 
 #identite h2 {
   text-align: left;
-  text-transform: uppercase;
   font-weight: bold;
   color: black;
-  font-size: 4ch;
+  font-size: 5ch;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 #identite .d-row {
   justify-content: space-evenly;
-  font-size: 1.5ch;
+  font-size: 1.4ch;
   color: #666;
 }
 
 #identite p {
-  font-size: 2.5ch;
+  font-size: 2.4ch;
   text-align: justify;
   font-family: Raleway;
   line-height: 1.9em;
@@ -631,9 +630,9 @@ body {
 #maitre-oeuvre h1 {
   text-align: center;
   justify-content: center;
-  font-size: 11ch;
+  font-size: 9ch;
   margin-top: 8rem;
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
   font-weight: bold;
 }
 
@@ -649,7 +648,7 @@ body {
 #culture-entreprise .img-fluid {
   justify-content: center;
   position: static;
-  width: 100%;
+  width: 70%;
   height: auto;
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -716,9 +715,10 @@ body {
 
 #maitrise-oeuvre h1 {
   text-align: left;
-  text-transform: uppercase;
+  justify-content: center;
+  font-size: 8ch;
   font-weight: bold;
-  font-size: 7ch;
+  color: black;
   margin-top: 8rem;
   margin-bottom: 5rem;
   margin-left: 10rem;
@@ -766,9 +766,9 @@ body {
 #expertise-projet h1 {
   text-align: center;
   justify-content: center;
-  font-size: 9ch;
-  margin-top: 12rem;
-  margin-bottom: 10rem;
+  font-size: 8ch;
+  margin-top: 14rem;
+  margin-bottom: 8rem;
   font-weight: bold;
 }
 
@@ -835,15 +835,15 @@ body {
   margin-top: -500px;
 }
 
-
-#nos-services h2 {
+#nos-services h1 {
   text-align: left;
-  text-transform: uppercase;
+  justify-content: center;
+  font-size: 8ch;
   font-weight: bold;
-  font-size: 7ch;
-  margin-top: 8rem;
-  margin-bottom: 5rem;
-  margin-left: 5rem;
+  color: black;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  margin-left: 7rem;
 }
 
 #nos-services .container-fluid {
@@ -856,48 +856,38 @@ body {
   text-align: justify;
 }
 
-#description-services h1 {
+#nos-services h2 {
   text-align: left;
-  text-transform: uppercase;
   font-weight: bold;
   color: black;
-  font-size: 4ch;
+  font-size: 5ch;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-#description-services .container {
-  max-width: 2000px;
+#nos-services .container-fluid {
   text-align: center;
 }
 
-#description-services .d-row {
+#nos-services .d-row {
   justify-content: space-evenly;
-  font-size: 1.5ch;
+  font-size: 1.4ch;
   color: #666;
-  margin-left: 10rem;
-  margin-right: 10rem;
 }
 
-#description-services .col-md-6 {
-  justify-content: space-evenly;
-  width: 500px;
-  margin-top: 3rem;
-  margin-bottom: 5rem;
-}
-
-#description-services p {
+#nos-services p {
   margin-top: 1rem;
-  font-size: 2.5ch;
+  font-size: 2.4ch;
   line-height: 1.9em;
   text-align: justify;
   font-family: Raleway;
 }
 
-#solutions-conception h2 {
+#solutions-conception h1 {
   text-align: center;
   justify-content: center;
-  font-size: 12ch;
-  margin-top: 8rem;
+  font-size: 8ch;
+  margin-top: 12rem;
   margin-bottom: 6rem;
   font-weight: bold;
 }
@@ -985,11 +975,11 @@ body {
   padding: 20px 0 20px 940px;
 }
 
-#service-expert h2 {
+#service-expert h1 {
   text-align: center;
   justify-content: center;
-  font-size: 12ch;
-  margin-top: 8rem;
+  font-size: 8ch;
+  margin-top: 12rem;
   margin-bottom: 6rem;
   font-weight: bold;
 }
@@ -1165,10 +1155,10 @@ body {
 
 #futur-projet h1 {
   text-align: left;
-  text-transform: uppercase;
+  justify-content: center;
+  font-size: 10ch;
   font-weight: bold;
   color: black;
-  font-size: 9ch;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -1196,7 +1186,7 @@ body {
 
 #futur-projet .d-row {
   justify-content: space-evenly;
-  font-size: 1.5ch;
+  font-size: 1.4ch;
   color: #666;
 }
 
