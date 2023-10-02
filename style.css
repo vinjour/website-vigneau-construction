@@ -1602,7 +1602,7 @@ body {
   #solutions-conception .main-timeline .timeline-content {
     text-align: right;
     justify-content: center;
-    padding: 20px 485px 20px 0;
+    padding: 20px 490px 20px 0;
   }
 
   #solutions-conception .main-timeline .timeline-content:before {
@@ -1634,7 +1634,7 @@ body {
   #solutions-conception .main-timeline .timeline:nth-child(2n) .timeline-content {
     text-align: left;
     justify-content: center;
-    padding: 20px 0 20px 420px;
+    padding: 20px 0 20px 423px;
   }
 
   #service-expert h1 {
@@ -1671,7 +1671,7 @@ body {
   #service-expert .main-timeline .timeline-content {
     text-align: right;
     justify-content: center;
-    padding: 20px 485px 20px 0;
+    padding: 0 490px 0 0;
   }
 
   #service-expert .main-timeline .timeline-content:before {
@@ -1703,7 +1703,7 @@ body {
   #service-expert .main-timeline .timeline:nth-child(2n) .timeline-content {
     text-align: left;
     justify-content: center;
-    padding: 50px 0 20px 420px;
+    padding: 50px 0 20px 423px;
   }
 
 
