@@ -911,29 +911,6 @@ body {
   position: relative;
 }
 
-
-#solutions-conception .main-timeline .icon {
-  width: 8px;
-  height: 8px;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-#solutions-conception .main-timeline .icon {
-  content: "";
-  width: 0.7ch;
-  height: 0.7ch;
-  border-radius: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: solid black;
-}
-
 #solutions-conception .main-timeline .timeline-content {
   text-align: right;
   justify-content: center;
@@ -1001,29 +978,6 @@ body {
 #service-expert .main-timeline .timeline {
   margin-bottom: 3rem;
   position: relative;
-}
-
-
-#service-expert .main-timeline .icon {
-  width: 8px;
-  height: 8px;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-#service-expert .main-timeline .icon {
-  content: "";
-  width: 0.7ch;
-  height: 0.7ch;
-  border-radius: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: solid black;
 }
 
 #service-expert .main-timeline .timeline-content {
@@ -1645,32 +1599,10 @@ body {
     right: 0;
   }
 
-  #solutions-conception .main-timeline .icon {
-    width: 8px;
-    height: 8px;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-  }
-
-  #solutions-conception .main-timeline .icon {
-    content: "";
-    width: 0.7ch;
-    height: 0.7ch;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: solid black;
-  }
-
   #solutions-conception .main-timeline .timeline-content {
     text-align: right;
     justify-content: center;
-    padding: 20px 450px 20px 0;
+    padding: 20px 485px 20px 0;
   }
 
   #solutions-conception .main-timeline .timeline-content:before {
@@ -1679,7 +1611,7 @@ body {
     height: 2px;
     background: black;
     position: absolute;
-    top: 7.5rem;
+    top: 9rem;
   }
 
   #solutions-conception .main-timeline .title {
@@ -1736,33 +1668,10 @@ body {
     position: relative;
   }
 
-
-  #service-expert .main-timeline .icon {
-    width: 8px;
-    height: 8px;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-  }
-
-  #service-expert .main-timeline .icon {
-    content: "";
-    width: 0.7ch;
-    height: 0.7ch;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: solid black;
-  }
-
   #service-expert .main-timeline .timeline-content {
     text-align: right;
     justify-content: center;
-    padding: 20px 450px 20px 0;
+    padding: 20px 485px 20px 0;
   }
 
   #service-expert .main-timeline .timeline-content:before {
@@ -1908,87 +1817,3 @@ body {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
 
-
-
-
-
-@media only screen and (max-width: 991px) {
-  .main-timeline .date-content {
-    margin-top: 35px
-  }
-
-  .main-timeline .date-content:before {
-    width: 22.5%
-  }
-
-  .main-timeline .timeline-content {
-    padding: 10px 0 10px 30px
-  }
-
-  .main-timeline .title {
-    font-size: 17px
-  }
-
-  .main-timeline .timeline:nth-child(2n) .timeline-content {
-    padding: 10px 30px 10px 0
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .main-timeline:before {
-    margin: 0;
-    left: 7px
-  }
-
-  .main-timeline .timeline {
-    margin-bottom: 20px
-  }
-
-  .main-timeline .timeline:last-child {
-    margin-bottom: 0
-  }
-
-  .main-timeline .icon {
-    margin: auto 0
-  }
-
-  .main-timeline .date-content {
-    width: 95%;
-    float: right;
-    margin-top: 0
-  }
-
-  .main-timeline .date-content:before {
-    display: none
-  }
-
-  .main-timeline .date-outer {
-    width: 110px;
-    height: 110px
-  }
-
-  .main-timeline .date-outer:before,
-  .main-timeline .date-outer:after {
-    width: 110px;
-    height: 110px
-  }
-
-  .main-timeline .date {
-    top: 30%
-  }
-
-  .main-timeline .year {
-    font-size: 24px
-  }
-
-  .main-timeline .timeline-content,
-  .main-timeline .timeline:nth-child(2n) .timeline-content {
-    width: 95%;
-    text-align: center;
-    padding: 10px 0
-  }
-
-  .main-timeline .title {
-    margin-bottom: 10px
-  }
-}
