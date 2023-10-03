@@ -733,6 +733,7 @@ body {
 
 #maitrise-oeuvre h2 {
   font-size: 3ch;
+  color: black;
   text-transform: none;
   font-weight: lighter;
   text-align: left;
@@ -1307,7 +1308,7 @@ body {
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 869.98px) {
 
   /* accueil.html */
 
@@ -1500,6 +1501,7 @@ body {
     font-size: 3ch;
     text-transform: none;
     font-weight: lighter;
+    color: black;
     text-align: left;
     font-family: Raleway;
     margin-top: 1.5rem;
@@ -1806,7 +1808,503 @@ body {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 870px) and (max-width: 1299.98px) {
+
+  /* accueil.html */
+
+  #myCarousel .carousel-inner .img-fluid {
+    width: 100%;
+    height: 600px;
+  }
+
+  #myCarousel .carousel-caption h1 {
+    font-size: 4.5em;
+    margin-top: -375px;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-weight: 650;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  #myCarousel .carousel-caption {
+    font-size: 1.25ch;
+  }
+
+  #realisation-reve h1 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 5ch;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+  }
+
+  #exemple-realisation h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 5.5ch;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+
+  #exemple-realisation .img-fluid {
+    width: 100%;
+    height: 65%;
+  }
+
+  #plan-conception h1 {
+    text-align: left;
+    font-weight: bolder;
+    color: black;
+    font-size: 6ch;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  #plan-conception .img-fluid {
+    width: 100%;
+    height: 45%;
+    margin-top: 10rem;
+  }
+
+  #accompagnement-expert h1 {
+    text-align: left;
+    font-weight: bolder;
+    color: black;
+    font-size: 6ch;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  #accompagnement-expert .img-fluid {
+    width: 100%;
+    height: 45%;
+    margin-top: 10rem;
+  }
+
+  #gamme-services h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 6.5ch;
+    line-height: 2.5ch;
+    font-weight: 600;
+    color: whitesmoke;
+  }
+
+
+  /* agence.html */
+
+  #photo_aproposdenous .img-fluid {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+  }
+
+  #photo_aproposdenous .carousel-caption h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -300px;
+  }
+
+  #identite h1 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 5ch;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+  }
+
+  #identite h2 {
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    font-size: 3.2ch;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #maitre-oeuvre h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 6ch;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    font-weight: bold;
+  }
+
+  #culture-entreprise .img-fluid {
+    justify-content: center;
+    position: static;
+    width: 100%;
+    height: 40%;
+    margin-top: 15rem;
+  }
+
+  #culture-entreprise h1 {
+    text-align: center;
+    font-size: 12ch;
+    font-family: "Nanum Pen Script";
+    color: black;
+    margin-top: 5rem;
+  }
+
+  #culture-entreprise h2 {
+    text-align: center;
+    font-size: 12ch;
+    color: black;
+    font-family: "Nanum Pen Script";
+  }
+
+  #culture-entreprise h3 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 4ch;
+    font-family: "Nanum Pen Script";
+    margin-bottom: 5rem;
+  }
+
+
+
+  /* metier.html */
+
+
+  #photo_metier .img-fluid {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+  }
+
+  #photo_metier .carousel-caption h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -300px;
+  }
+
+  #maitrise-oeuvre h1 {
+    text-align: left;
+    justify-content: center;
+    font-size: 5ch;
+    font-weight: bold;
+    color: black;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+  }
+
+  #maitrise-oeuvre h2 {
+    font-size: 3ch;
+    color: black;
+    font-weight: lighter;
+    text-align: left;
+    font-family: Raleway;
+    margin-top: 1.5rem;
+  }
+
+  #expertise-projet h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 5.5ch;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    font-weight: bold;
+  }
+
+  #expertise-projet h2 {
+    text-align: left;
+    justify-content: left;
+    color: black;
+    font-size: 3.5ch;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  #expertise-projet .img-fluid {
+    height: auto;
+  }
+
+
+
+  /* missions.html */
+
+  #photo_missions {
+    margin-top: -90px;
+  }
+
+  #photo_missions .img-fluid {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+  }
+
+  #photo_missions .carousel-caption h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -300px;
+  }
+
+  #nos-services h1 {
+    text-align: left;
+    justify-content: center;
+    font-size: 5ch;
+    font-weight: bold;
+    color: black;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+  }
+
+  #nos-services h2 {
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    font-size: 3.2ch;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #nos-services p {
+    margin-top: 1rem;
+    font-size: 2.4ch;
+    line-height: 1.9em;
+    text-align: justify;
+    font-family: Raleway;
+  }
+
+  #solutions-conception h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 5.5ch;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    font-weight: bold;
+  }
+
+  #solutions-conception .main-timeline:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #solutions-conception .main-timeline .timeline-content {
+    text-align: right;
+    justify-content: center;
+    padding: 20px 490px 20px 0;
+  }
+
+  #solutions-conception .main-timeline .timeline-content:before {
+    content: "";
+    width: 8%;
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 9rem;
+  }
+
+  #solutions-conception .main-timeline .title {
+    font-size: 3ch;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 3rem;
+    margin-left: 7rem;
+    margin-bottom: 2.5rem;
+  }
+
+  #solutions-conception .main-timeline .description {
+    margin-right: 3rem;
+    margin-left: 7rem;
+    font-family: Raleway;
+    line-height: 1.9em;
+    color: #666;
+  }
+
+  #solutions-conception .main-timeline .timeline:nth-child(2n) .timeline-content {
+    text-align: left;
+    justify-content: center;
+    padding: 20px 0 20px 423px;
+  }
+
+  #service-expert h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 5.5ch;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    font-weight: bold;
+  }
+
+  #service-expert .main-timeline {
+    position: relative;
+  }
+
+  #service-expert .main-timeline:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: black;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #service-expert .main-timeline .timeline {
+    margin-bottom: 3rem;
+    position: relative;
+  }
+
+  #service-expert .main-timeline .timeline-content {
+    text-align: right;
+    justify-content: center;
+    padding: 0 490px 0 0;
+  }
+
+  #service-expert .main-timeline .timeline-content:before {
+    content: "";
+    width: 8%;
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 7.5rem;
+  }
+
+  #service-expert .main-timeline .title {
+    font-size: 3ch;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 3rem;
+    margin-left: 7rem;
+    margin-bottom: 2.5rem;
+  }
+
+  #service-expert .main-timeline .description {
+    margin-right: 3rem;
+    margin-left: 7rem;
+    font-family: Raleway;
+    line-height: 1.9em;
+    color: #666;
+  }
+
+  #service-expert .main-timeline .timeline:nth-child(2n) .timeline-content {
+    text-align: left;
+    justify-content: center;
+    padding: 50px 0 20px 500px;
+  }
+
+
+
+  /* blog.html */
+
+  #photo_ecriveznous .img-fluid {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+  }
+
+  #photo_ecriveznous .carousel-caption h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -300px;
+  }
+
+  #futur-projet h1 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 5.5ch;
+    margin-top: 3rem;
+  }
+
+  #futur-projet p {
+    margin-top: 3rem;
+    font-size: 2.5ch;
+    line-height: 1.9em;
+    text-align: justify;
+    font-family: Raleway;
+  }
+
+  #futur-projet h2 {
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    font-family: Raleway;
+    font-size: 3.5ch;
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+  }
+
+  #futur-projet h3 {
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    font-family: Raleway;
+    font-size: 4ch;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  #futur-projet .col-5 {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+
+
+  /* footer */
+
+  #contactez-nous .brightness img {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+
+  }
+
+  #contactez-nous .carousel-caption h1 {
+    font-size: 2.5em;
+    margin-top: -220px;
+    margin-bottom: 2rem;
+    font-weight: 630;
+    color: white;
+  }
+
+  #contactez-nous .carousel-caption {
+    font-size: 2ch;
+  }
+
+  #contactez-nous p {
+    text-align: center;
+    font-size: 2.3ch;
+    font-weight: lighter;
+    color: white;
+    font-family: Raleway;
+    margin-bottom: 2rem;
+  }
+
+  #footer h1 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.7ch;
+  }
+
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {}
@@ -1816,4 +2314,3 @@ body {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
-
