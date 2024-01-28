@@ -5,14 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <link rel="icon" type="image/x-icon" href="images/logo/favicon.ico" alt="icône Vigneau Construction">
-  <title>Notre agence | Vigneau Construction</title>
-  <meta name="description" content="Fondée à Casteljaloux (47) par Simon Vigneau, l’agence Vigneau
-  Construction est votre unique interlocuteur sur toute la durée du projet.">
+  <title>Contactez-nous | Vigneau Construction</title>
+  <meta name="description" content="Un projet en tête ? Discutons des détails. Contactez-nous.">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum Pen Script">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="js/validate_mail.js"></script>
@@ -46,104 +44,60 @@
     </div>
   </nav>
 
-  <section id="photo_aproposdenous">
+  <section id="photo_ecriveznous">
     <div class="container-fluid px-0">
       <div class="row">
         <div class="col">
-          <img class="img-fluid" src="images/aproposdenous.jpg" alt="image à propos de nous">
+          <img class="img-fluid" src="images/ecrivez-nous.jpg" alt="photo écrivez-nous">
           <div class="carousel-caption">
-            <h1>à propos de nous</h1>
+            <h1>écrivez-nous</h1>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="identite">
-    <div class="container-fluid">
-      <h1>Notre objectif :<br>vous satisfaire</h1>
-      <div class="d-flex d-row">
-        <div class="col-4">
-          <h2>Qui sommes-nous ?</h2>
-          <p>Fondée à Casteljaloux (47) par Simon Vigneau,
-            Vigneau Construction est spécialisée dans la conception et
-            la réalisation de projets sur-mesure. Fort de
-            notre expérience dans le bâtiment, nous
-            sommes à l'écoute de nos clients pour leur
-            apporter un service de qualité.</p>
-        </div>
-        <div class="col-3">
-          <h2>Notre objectif</h2>
-          <p>Donner vie à vos projets de création, qu'ils
-            soient simples, fonctionnels, techniques ou
-            esthétiques, nous nous efforçons de trouver
-            des solutions viables, adaptées à vos envies et
-            à votre budget.</p>
-        </div>
-        <div class="col-3">
-          <h2>À propos</h2>
-          <p>Nous sommes votre unique
-            interlocuteur sur toute la durée de
-            votre chantier et travaillons
-            uniquement avec des partenaires
-            et artisans locaux.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="maitre-oeuvre">
-    <h1>Votre maître d'œuvre<br>vous dit tout</h1>
-  </section>
-
-  <section id="culture-entreprise">
+  <section id="futur-projet">
     <div class="container-fluid">
       <div class="d-flex d-row">
-        <div class="col-5 d-flex justify-content-center">
-          <img class="img-fluid img-thumbnail" src="images/photo_profil_simon_vigneau.jpg" alt="photo profil Simon Vigneau">
+        <div class="col-5">
+          <h1>Un projet en tête ?</h1>
+          <p>Discutons des détails.</p>
+          <h2>Appelez-nous</h2>
+          <h3>+33 6 38 83 20 29</h3>
+          <a style="color: black;" href="https://www.instagram.com/vigneau_construction" role="button"><i class="fa-brands fa-instagram"></i></a>
+          <a style="color: black;" href="https://www.facebook.com/profile.php?id=100090458014235" role="button"><i class="fa-brands fa-facebook-f"></i></a>
+          <a style="color: black;" href="https://www.linkedin.com/in/vigneau-simon-25818026a" role="button"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
         <div class="col-5">
-          <h1>"</h1>
-          <p>Natif des Landes de Gascogne, c'est tout naturellement que je me suis
-            installé en tant que maître d'œuvre dans la plus landaise des villes du
-            Lot-et-Garonne : Casteljaloux.</p>
-          <p>Fort d'une expérience de bientôt 10 ans dans le secteur du bâtiment, j'ai
-            à coeur de concrétiser vos projets sur-mesure avec des artisans et
-            partenaires locaux.</p>
-          <p>Répondre à vos attentes, être à votre écoute permanente, vous conseiller
-            utilement constituent pour moi les gages d'une relation de confiance et
-            sereine.</p>
-          <h2>"</h2>
-          <h3>Simon Vigneau</h3>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contactez-nous">
-    <div class="container-fluid px-0">
-      <div class="brightness row">
-        <div class="col">
-          <img class="img-fluid" src="images/footer.jpg" alt="image prise de contact">
-          <div class="carousel-caption">
-            <h1>Vous avez un projet en tête ?</h1>
-            <p>N'hésitez pas à nous contacter</p>
-            <div class="button-container">
-              <a class="button" href="contact.php">+ &nbsp; &nbsp; Parlons-en</a>
+          <form id="contact" class="text-center border border-light p-5" action="mail_contact.php">
+            <input type="text" id="name" class="form-control mb-4" placeholder="Nom">
+            <input type="email" id="email" class="form-control mb-4" placeholder="E-mail">
+            <select id="subject" class="browser-default custom-select mb-4">
+                <option value="" selected disabled>Choisir un objet</option>
+                <option value="1">Retour client</option>
+                <option value="2">Projet de construction</option>
+                <option value="3">Projet de rénovation</option>
+                <option value="4">Prise d'informations</option>
+                <option value="5">Autre</option>
+            </select>
+            <div class="form-group">
+                <textarea class="form-control rounded-0" id="message" rows="3" placeholder="Message"></textarea>
             </div>
-          </div>
+            <button class="btn btn-info btn-block" type="submit" onclick="validateFrom();">Envoyer</button>
+          </form>
+          <div class="status"></div>
         </div>
       </div>
     </div>
   </section>
-
 
   <section id="footer">
     <div class="container-fluid">
       <div class="d-flex d-row">
         <div class="col-4">
           <img class="img-fluid" src="images/logo/logo_black_vigneau-construction.png"
-            alt="logo blanc Vigneau Construction">
+            alt="White Logo Vigneau Construction">
           <h1>VIGNEAU CONSTRUCTION</h1>
           <p class="subtext">Maîtrise d'œuvre dans le bâtiment.</p>
           <p class="subtext">Agence spécialisée dans les maisons individuelles et les
@@ -170,7 +124,7 @@
   </section>
 
   <div class="text-center p-3" style="background-color: white;">
-    © 2023 Vigneau Construction, Tous droits réservés.
+    © 2023 Vigneau Construction, Tous droits réservés
   </div>
 
 </body>
